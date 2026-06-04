@@ -3,7 +3,7 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "case_count": 10,
+  "case_count": 12,
   "featured_count": 1,
   "records": [
     {
@@ -194,6 +194,42 @@
       "images": [
         "images/comparison_case2/output0.jpg",
         "images/comparison_case2/output1.jpg"
+      ],
+      "ingested_at": "2026-06-04"
+    },
+    {
+      "tweet_url": "https://x.com/mrc_748/status/2061992269750862314",
+      "author_handle": "@mrc_748",
+      "author_url": "https://x.com/mrc_748",
+      "lang": "en",
+      "title": "Text-to-Image vs Nano Banana 2",
+      "category": "Comparison & Community",
+      "category_slug": "comparison",
+      "case_number": 3,
+      "folder_name": "comparison_case3",
+      "role": "case",
+      "prompt_source": "none",
+      "images": [
+        "images/comparison_case3/output0.jpg",
+        "images/comparison_case3/output1.jpg"
+      ],
+      "ingested_at": "2026-06-04"
+    },
+    {
+      "tweet_url": "https://x.com/400_yen/status/2061912907244241093",
+      "author_handle": "@400_yen",
+      "author_url": "https://x.com/400_yen",
+      "lang": "en",
+      "title": "Flash vs Standard",
+      "category": "Comparison & Community",
+      "category_slug": "comparison",
+      "case_number": 4,
+      "folder_name": "comparison_case4",
+      "role": "case",
+      "prompt_source": "none",
+      "images": [
+        "images/comparison_case4/output0.jpg",
+        "images/comparison_case4/output1.jpg"
       ],
       "ingested_at": "2026-06-04"
     }
