@@ -26,9 +26,9 @@
 
 <div align="center">
 
-<a href="https://x.com/berryxia/status/2061988157349130675"><img src="images/leaderboard/output.jpg" width="640" alt="MAI-Image-2.5 ranks #2 on the LMArena Image Edit leaderboard"></a>
+<a href="https://x.com/arena/status/2061887242579382660"><img src="images/leaderboard/output.jpg" width="560" alt="Image Edit Arena leaderboard: MAI-Image-2.5 ranks #2 with a score of 1401"></a>
 
-***MAI-Image-2.5 lands #2 on the LMArena Image Edit leaderboard — ahead of Nano Banana Pro.*** (leaderboard shared by [@arena](https://x.com/arena))
+***MAI-Image-2.5 ranks #2 on the Image Edit Arena (score 1401) — ahead of every Nano Banana variant.*** (leaderboard by [@arena](https://x.com/arena))
 
 </div>
 
@@ -285,7 +285,7 @@ Thanks to the creators and contributors who shared their MAI-Image-2.5 work publ
 - [@tmiyatake1](https://x.com/tmiyatake1)
 - [@WolfRiccardo](https://x.com/WolfRiccardo)
 - [@eyupyusufa](https://x.com/eyupyusufa)
-- [@berryxia](https://x.com/berryxia)
+- [@arena](https://x.com/arena)
 
 *We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.*
 
