@@ -1,14 +1,14 @@
 <div align="center">
 
-<a href="https://evolink.ai"><img src="images/logo.png" alt="Awesome MAI-Image-2.5 Prompts — use MAI Image 2.5 API on EvoLinkAI" width="640"></a>
+<a href="https://evolink.ai/models"><img src="images/logo.png" alt="Awesome MAI-Image-2.5 Prompts — use MAI Image 2.5 API on EvoLinkAI" width="640"></a>
 
 # Awesome MAI-Image-2.5 Prompts
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai)
-[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai)
-[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://evolink.ai)
-[![Model](https://img.shields.io/badge/Model-MAI--Image--2.5-purple)](https://evolink.ai)
+[![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/models)
+[![Website](https://img.shields.io/badge/Website-Live-orange)](https://evolink.ai/models)
+[![Docs](https://img.shields.io/badge/Docs-Read-blue)](https://evolink.ai/models)
+[![Model](https://img.shields.io/badge/Model-MAI--Image--2.5-purple)](https://evolink.ai/models)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-Default_Source-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-Ver-ffb703)](README_es.md)
@@ -42,7 +42,7 @@ MAI-Image-2.5 is Microsoft's first fully in-house image model, announced at Micr
 
 Most cases in this repository are curated from X/Twitter, creator communities, and public demos. Original authors are credited on every case.
 
-Try it on Evolink: [MAI-Image-2.5](https://evolink.ai)
+Try it on Evolink: [MAI-Image-2.5](https://evolink.ai/models)
 
 If you find this useful, consider giving it a star. ⭐
 
