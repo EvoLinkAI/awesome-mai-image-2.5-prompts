@@ -3,7 +3,7 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "case_count": 10,
+  "case_count": 9,
   "featured_count": 1,
   "records": [
     {
@@ -18,7 +18,9 @@
       "folder_name": "leaderboard",
       "role": "hero",
       "prompt_source": "none",
-      "image": "images/leaderboard/output.jpg",
+      "images": [
+        "images/leaderboard/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -33,7 +35,9 @@
       "folder_name": "portrait_case1",
       "role": "case",
       "prompt_source": "real",
-      "image": "images/portrait_case1/output.jpg",
+      "images": [
+        "images/portrait_case1/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -48,7 +52,9 @@
       "folder_name": "portrait_case2",
       "role": "case",
       "prompt_source": "reconstructed",
-      "image": "images/portrait_case2/output.jpg",
+      "images": [
+        "images/portrait_case2/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -63,7 +69,9 @@
       "folder_name": "portrait_case3",
       "role": "case",
       "prompt_source": "reconstructed",
-      "image": "images/portrait_case3/output.jpg",
+      "images": [
+        "images/portrait_case3/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -78,7 +86,9 @@
       "folder_name": "poster_case1",
       "role": "case",
       "prompt_source": "reconstructed",
-      "image": "images/poster_case1/output.jpg",
+      "images": [
+        "images/poster_case1/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -93,7 +103,9 @@
       "folder_name": "poster_case2",
       "role": "case",
       "prompt_source": "reconstructed",
-      "image": "images/poster_case2/output.jpg",
+      "images": [
+        "images/poster_case2/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -108,22 +120,9 @@
       "folder_name": "poster_case3",
       "role": "case",
       "prompt_source": "reconstructed",
-      "image": "images/poster_case3/output.jpg",
-      "ingested_at": "2026-06-04"
-    },
-    {
-      "tweet_url": "https://x.com/seisei_ai_1st/status/2061997864646222028",
-      "author_handle": "@seisei_ai_1st",
-      "author_url": "https://x.com/seisei_ai_1st",
-      "lang": "ja",
-      "title": "AI News Top 3 Infographic Card",
-      "category": "UI & Social Media Mockup",
-      "category_slug": "ui",
-      "case_number": 1,
-      "folder_name": "ui_case1",
-      "role": "case",
-      "prompt_source": "reconstructed",
-      "image": "images/ui_case1/output.jpg",
+      "images": [
+        "images/poster_case3/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -134,11 +133,13 @@
       "title": "Model Lineup Social Card",
       "category": "UI & Social Media Mockup",
       "category_slug": "ui",
-      "case_number": 2,
-      "folder_name": "ui_case2",
+      "case_number": 1,
+      "folder_name": "ui_case1",
       "role": "case",
       "prompt_source": "reconstructed",
-      "image": "images/ui_case2/output.jpg",
+      "images": [
+        "images/ui_case1/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -153,7 +154,10 @@
       "folder_name": "comparison_case1",
       "role": "case",
       "prompt_source": "real",
-      "image": "images/comparison_case1/output.jpg",
+      "images": [
+        "images/comparison_case1/input.jpg",
+        "images/comparison_case1/output.jpg"
+      ],
       "ingested_at": "2026-06-04"
     },
     {
@@ -168,7 +172,10 @@
       "folder_name": "comparison_case2",
       "role": "case",
       "prompt_source": "none",
-      "image": "images/comparison_case2/output.jpg",
+      "images": [
+        "images/comparison_case2/output0.jpg",
+        "images/comparison_case2/output1.jpg"
+      ],
       "ingested_at": "2026-06-04"
     }
   ]
