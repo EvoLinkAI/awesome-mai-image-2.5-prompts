@@ -3,7 +3,7 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "case_count": 14,
+  "case_count": 15,
   "featured_count": 1,
   "records": [
     {
@@ -268,6 +268,24 @@
         "images/comparison_case4/output1.jpg"
       ],
       "ingested_at": "2026-06-04"
+    },
+    {
+      "tweet_url": "https://x.com/MicrosoftAI/status/2062240408638222471",
+      "author_handle": "@MicrosoftAI",
+      "author_url": "https://x.com/MicrosoftAI",
+      "lang": "en",
+      "title": "Official Editing Before/After (OneDrive Photos)",
+      "category": "Comparison & Community",
+      "category_slug": "comparison",
+      "case_number": 5,
+      "folder_name": "comparison_case5",
+      "role": "case",
+      "prompt_source": "none",
+      "images": [
+        "images/comparison_case5/output.png"
+      ],
+      "ingested_at": "2026-06-04",
+      "source_dataset": "mai-image-2.5/mai-image-2.5-12h-incremental-2026-06-04.json"
     }
   ]
 }
