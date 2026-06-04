@@ -3,8 +3,24 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "count": 12,
+  "case_count": 10,
+  "featured_count": 1,
   "records": [
+    {
+      "tweet_url": "https://x.com/berryxia/status/2061988157349130675",
+      "author_handle": "@berryxia",
+      "author_url": "https://x.com/berryxia",
+      "lang": "zh",
+      "title": "Image Edit Arena #2 Leaderboard",
+      "category": "Featured",
+      "category_slug": "featured",
+      "case_number": 0,
+      "folder_name": "leaderboard",
+      "role": "hero",
+      "prompt_source": "none",
+      "image": "images/leaderboard/output.jpg",
+      "ingested_at": "2026-06-04"
+    },
     {
       "tweet_url": "https://x.com/atomtanstudio/status/2061905270025150679",
       "author_handle": "@atomtanstudio",
@@ -15,7 +31,7 @@
       "category_slug": "portrait",
       "case_number": 1,
       "folder_name": "portrait_case1",
-      "type_label": "🔤 Text→Image",
+      "role": "case",
       "prompt_source": "real",
       "image": "images/portrait_case1/output.jpg",
       "ingested_at": "2026-06-04"
@@ -30,7 +46,7 @@
       "category_slug": "portrait",
       "case_number": 2,
       "folder_name": "portrait_case2",
-      "type_label": "🔤 Text→Image",
+      "role": "case",
       "prompt_source": "reconstructed",
       "image": "images/portrait_case2/output.jpg",
       "ingested_at": "2026-06-04"
@@ -45,7 +61,7 @@
       "category_slug": "portrait",
       "case_number": 3,
       "folder_name": "portrait_case3",
-      "type_label": "🔤 Text→Image",
+      "role": "case",
       "prompt_source": "reconstructed",
       "image": "images/portrait_case3/output.jpg",
       "ingested_at": "2026-06-04"
@@ -60,7 +76,7 @@
       "category_slug": "poster",
       "case_number": 1,
       "folder_name": "poster_case1",
-      "type_label": "🔤 Text→Image",
+      "role": "case",
       "prompt_source": "reconstructed",
       "image": "images/poster_case1/output.jpg",
       "ingested_at": "2026-06-04"
@@ -75,7 +91,7 @@
       "category_slug": "poster",
       "case_number": 2,
       "folder_name": "poster_case2",
-      "type_label": "🔤 Text→Image",
+      "role": "case",
       "prompt_source": "reconstructed",
       "image": "images/poster_case2/output.jpg",
       "ingested_at": "2026-06-04"
@@ -90,7 +106,7 @@
       "category_slug": "poster",
       "case_number": 3,
       "folder_name": "poster_case3",
-      "type_label": "🖼️ Image→Image",
+      "role": "case",
       "prompt_source": "reconstructed",
       "image": "images/poster_case3/output.jpg",
       "ingested_at": "2026-06-04"
@@ -105,7 +121,7 @@
       "category_slug": "ui",
       "case_number": 1,
       "folder_name": "ui_case1",
-      "type_label": "🔤 Text→Image",
+      "role": "case",
       "prompt_source": "reconstructed",
       "image": "images/ui_case1/output.jpg",
       "ingested_at": "2026-06-04"
@@ -120,7 +136,7 @@
       "category_slug": "ui",
       "case_number": 2,
       "folder_name": "ui_case2",
-      "type_label": "🔤 Text→Image",
+      "role": "case",
       "prompt_source": "reconstructed",
       "image": "images/ui_case2/output.jpg",
       "ingested_at": "2026-06-04"
@@ -135,7 +151,7 @@
       "category_slug": "comparison",
       "case_number": 1,
       "folder_name": "comparison_case1",
-      "type_label": "🖼️ Image→Image",
+      "role": "case",
       "prompt_source": "real",
       "image": "images/comparison_case1/output.jpg",
       "ingested_at": "2026-06-04"
@@ -150,39 +166,9 @@
       "category_slug": "comparison",
       "case_number": 2,
       "folder_name": "comparison_case2",
-      "type_label": "🆚 Comparison",
+      "role": "case",
       "prompt_source": "none",
       "image": "images/comparison_case2/output.jpg",
-      "ingested_at": "2026-06-04"
-    },
-    {
-      "tweet_url": "https://x.com/berryxia/status/2061988157349130675",
-      "author_handle": "@berryxia",
-      "author_url": "https://x.com/berryxia",
-      "lang": "zh",
-      "title": "Image-Edit Leaderboard #2 Take",
-      "category": "Comparison & Community",
-      "category_slug": "comparison",
-      "case_number": 3,
-      "folder_name": "comparison_case3",
-      "type_label": "🆚 Comparison",
-      "prompt_source": "none",
-      "image": "images/comparison_case3/output.jpg",
-      "ingested_at": "2026-06-04"
-    },
-    {
-      "tweet_url": "https://x.com/WesRoth/status/2062021457824395476",
-      "author_handle": "@WesRoth",
-      "author_url": "https://x.com/WesRoth",
-      "lang": "en",
-      "title": "MAI-Image-2.5 vs 2.5-Flash Positioning",
-      "category": "Comparison & Community",
-      "category_slug": "comparison",
-      "case_number": 4,
-      "folder_name": "comparison_case4",
-      "type_label": "🆚 Comparison",
-      "prompt_source": "none",
-      "image": "images/comparison_case4/output.jpg",
       "ingested_at": "2026-06-04"
     }
   ]

@@ -1,6 +1,6 @@
 # 🎨 Poster & Illustration Cases
 
-### Case 1: [Sumi-e Ink Wash Illustration](https://x.com/mk0600937254693/status/2062147536606126244) (by [@mk0600937254693](https://x.com/mk0600937254693)) `🔤 Text→Image`
+### Case 1: [Sumi-e Ink Wash Illustration](https://x.com/mk0600937254693/status/2062147536606126244) (by [@mk0600937254693](https://x.com/mk0600937254693))
 
 | Output |
 | :----: |
@@ -15,11 +15,9 @@ A traditional Japanese sumi-e ink-wash painting with a soft watercolor feel. Exp
 > [!NOTE]
 > Reconstructed prompt based on the author's description (墨絵 / watercolor feel). Swap the subject to apply the ink-wash style to any motif.
 
-> Source: [@mk0600937254693 on X](https://x.com/mk0600937254693/status/2062147536606126244)
-
 ---
 
-### Case 2: [Anime Character Illustration](https://x.com/WaifuGacha/status/2062160277425283384) (by [@WaifuGacha](https://x.com/WaifuGacha)) `🔤 Text→Image`
+### Case 2: [Anime Character Illustration](https://x.com/WaifuGacha/status/2062160277425283384) (by [@WaifuGacha](https://x.com/WaifuGacha))
 
 | Output |
 | :----: |
@@ -34,11 +32,9 @@ A high-quality anime illustration of an original character, clean lineart, vibra
 > [!NOTE]
 > Reconstructed prompt. The original post showcased output only without publishing the prompt text.
 
-> Source: [@WaifuGacha on X](https://x.com/WaifuGacha/status/2062160277425283384)
-
 ---
 
-### Case 3: [Pose Edit with Art-Style Preservation](https://x.com/genel_ai/status/2062100730899763367) (by [@genel_ai](https://x.com/genel_ai)) `🖼️ Image→Image`
+### Case 3: [Pose Edit with Art-Style Preservation](https://x.com/genel_ai/status/2062100730899763367) (by [@genel_ai](https://x.com/genel_ai))
 
 | Output |
 | :----: |
@@ -55,4 +51,3 @@ Change only the character's pose to [new pose] while keeping the original artwor
 > [!NOTE]
 > **Reconstructed editing prompt.** Replace `[new pose]` with the target pose. This case highlights MAI-Image-2.5's strength at illustration editing that preserves the source art style.
 
-> Source: [@genel_ai on X](https://x.com/genel_ai/status/2062100730899763367)

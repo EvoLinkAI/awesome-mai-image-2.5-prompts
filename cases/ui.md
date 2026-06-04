@@ -1,6 +1,6 @@
 # 🖥️ UI & Social Media Mockup Cases
 
-### Case 1: [AI News Top 3 Infographic Card](https://x.com/seisei_ai_1st/status/2061997864646222028) (by [@seisei_ai_1st](https://x.com/seisei_ai_1st)) `🔤 Text→Image`
+### Case 1: [AI News Top 3 Infographic Card](https://x.com/seisei_ai_1st/status/2061997864646222028) (by [@seisei_ai_1st](https://x.com/seisei_ai_1st))
 
 | Output |
 | :----: |
@@ -15,11 +15,9 @@ A clean social-media infographic card titled "AI News Top 3". Three numbered ran
 > [!NOTE]
 > **Reconstructed prompt.** Replace the three ranked items and the title with your own content. Demonstrates MAI-Image-2.5's text-rendering and layout for social cards.
 
-> Source: [@seisei_ai_1st on X](https://x.com/seisei_ai_1st/status/2061997864646222028)
-
 ---
 
-### Case 2: [Model Lineup Social Card](https://x.com/tmiyatake1/status/2061961813009326580) (by [@tmiyatake1](https://x.com/tmiyatake1)) `🔤 Text→Image`
+### Case 2: [Model Lineup Social Card](https://x.com/tmiyatake1/status/2061961813009326580) (by [@tmiyatake1](https://x.com/tmiyatake1))
 
 | Output |
 | :----: |
@@ -34,4 +32,3 @@ A product-announcement social card listing a family of AI models. A bold title a
 > [!NOTE]
 > **Reconstructed prompt.** Edit the title and the model rows for your own lineup. Good template for keynote / launch summary cards.
 
-> Source: [@tmiyatake1 on X](https://x.com/tmiyatake1/status/2061961813009326580)

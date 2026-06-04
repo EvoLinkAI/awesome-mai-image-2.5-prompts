@@ -1,6 +1,6 @@
 # 📸 Portrait & Photography Cases
 
-### Case 1: [Editorial Fashion Portrait, Golden Hour](https://x.com/atomtanstudio/status/2061905270025150679) (by [@atomtanstudio](https://x.com/atomtanstudio)) `🔤 Text→Image`
+### Case 1: [Editorial Fashion Portrait, Golden Hour](https://x.com/atomtanstudio/status/2061905270025150679) (by [@atomtanstudio](https://x.com/atomtanstudio))
 
 | Output (left: MAI-Image-2.5, right: Nano Banana Pro) |
 | :----: |
@@ -85,11 +85,9 @@
 > [!NOTE]
 > This is a structured JSON prompt. MAI-Image-2.5 accepts plain natural-language prompts too — the JSON form is the author's way of locking many attributes at once. Edit any field to retarget the result.
 
-> Source: [@atomtanstudio on X](https://x.com/atomtanstudio/status/2061905270025150679)
-
 ---
 
-### Case 2: [Fashion Sense Battle, Character Consistency](https://x.com/grmchn4ai/status/2061924642571559406) (by [@grmchn4ai](https://x.com/grmchn4ai)) `🔤 Text→Image`
+### Case 2: [Fashion Sense Battle, Character Consistency](https://x.com/grmchn4ai/status/2061924642571559406) (by [@grmchn4ai](https://x.com/grmchn4ai))
 
 | Output |
 | :----: |
@@ -104,11 +102,9 @@ A 5x3 grid lookbook of the SAME young woman styled in fifteen different complete
 > [!NOTE]
 > Reconstructed prompt. The original tweet ran a third-party "fashion sense" comparison prompt and did not publish its exact text; this is a faithful reconstruction of the task, not the author's wording.
 
-> Source: [@grmchn4ai on X](https://x.com/grmchn4ai/status/2061924642571559406)
-
 ---
 
-### Case 3: [90s OVA Retro-Cel Anime Style](https://x.com/doerstokyo342/status/2062060899935100935) (by [@doerstokyo342](https://x.com/doerstokyo342)) `🔤 Text→Image`
+### Case 3: [90s OVA Retro-Cel Anime Style](https://x.com/doerstokyo342/status/2062060899935100935) (by [@doerstokyo342](https://x.com/doerstokyo342))
 
 | Output |
 | :----: |
@@ -123,4 +119,3 @@ A character portrait in authentic late-1990s OVA anime style: hand-painted cel-s
 > [!NOTE]
 > Reconstructed prompt based on the author's description of testing "90s OVA retro-cel" styles. Adjust the decade/studio reference to shift the era.
 
-> Source: [@doerstokyo342 on X](https://x.com/doerstokyo342/status/2062060899935100935)

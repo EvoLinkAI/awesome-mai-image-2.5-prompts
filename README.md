@@ -24,6 +24,14 @@
 
 </div>
 
+<div align="center">
+
+<a href="https://x.com/berryxia/status/2061988157349130675"><img src="images/leaderboard/output.jpg" width="640" alt="MAI-Image-2.5 ranks #2 on the LMArena Image Edit leaderboard"></a>
+
+***MAI-Image-2.5 lands #2 on the LMArena Image Edit leaderboard — ahead of Nano Banana Pro.*** (leaderboard shared by [@berryxia](https://x.com/berryxia))
+
+</div>
+
 ## 🍌 Introduction
 
 Welcome to the MAI-Image-2.5 prompt repository! 🤗
@@ -47,7 +55,7 @@ If you find this useful, consider giving it a star. ⭐
 
 ## 📰 News
 
-- **June 4, 2026:** First repository release — 12 curated MAI-Image-2.5 cases across Portrait, Poster, UI, and Comparison categories.
+- **June 4, 2026:** First repository release — 10 curated MAI-Image-2.5 cases across Portrait, Poster, UI, and Comparison categories.
 
 ## 📑 Menu
 
@@ -68,13 +76,11 @@ If you find this useful, consider giving it a star. ⭐
 - [🆚 Comparison & Community Examples](#-comparison--community-examples)
   - [Case 1: Object Removal Edit, Text & Car (by @WolfRiccardo)](#case-1-object-removal-edit-text--car-by-wolfriccardo)
   - [Case 2: MAI-Image-2.5 vs Nano Banana Pro (by @eyupyusufa)](#case-2-mai-image-25-vs-nano-banana-pro-by-eyupyusufa)
-  - [Case 3: Image-Edit Leaderboard #2 Take (by @berryxia)](#case-3-image-edit-leaderboard-2-take-by-berryxia)
-  - [Case 4: MAI-Image-2.5 vs 2.5-Flash Positioning (by @WesRoth)](#case-4-mai-image-25-vs-25-flash-positioning-by-wesroth)
 - [🙏 Acknowledge](#-acknowledge)
 
 ## 📸 Portrait & Photography Cases
 
-### Case 1: [Editorial Fashion Portrait, Golden Hour](https://x.com/atomtanstudio/status/2061905270025150679) (by [@atomtanstudio](https://x.com/atomtanstudio)) `🔤 Text→Image`
+### Case 1: [Editorial Fashion Portrait, Golden Hour](https://x.com/atomtanstudio/status/2061905270025150679) (by [@atomtanstudio](https://x.com/atomtanstudio))
 
 | Output (left: MAI-Image-2.5, right: Nano Banana Pro) |
 | :----: |
@@ -131,11 +137,9 @@ If you find this useful, consider giving it a star. ⭐
 > [!NOTE]
 > The author's verbatim structured JSON prompt (lightly trimmed for length — full version in [`cases/portrait.md`](cases/portrait.md)). MAI-Image-2.5 accepts plain natural-language prompts too; the JSON form locks many attributes at once.
 
-> Source: [@atomtanstudio on X](https://x.com/atomtanstudio/status/2061905270025150679)
-
 ---
 
-### Case 2: [Fashion Sense Battle, Character Consistency](https://x.com/grmchn4ai/status/2061924642571559406) (by [@grmchn4ai](https://x.com/grmchn4ai)) `🔤 Text→Image`
+### Case 2: [Fashion Sense Battle, Character Consistency](https://x.com/grmchn4ai/status/2061924642571559406) (by [@grmchn4ai](https://x.com/grmchn4ai))
 
 | Output |
 | :----: |
@@ -150,11 +154,9 @@ A 5x3 grid lookbook of the SAME young woman styled in fifteen different complete
 > [!NOTE]
 > **Reconstructed prompt.** The original tweet ran a third-party "fashion sense" comparison prompt and did not publish its exact text; this is a faithful reconstruction of the task.
 
-> Source: [@grmchn4ai on X](https://x.com/grmchn4ai/status/2061924642571559406)
-
 ---
 
-### Case 3: [90s OVA Retro-Cel Anime Style](https://x.com/doerstokyo342/status/2062060899935100935) (by [@doerstokyo342](https://x.com/doerstokyo342)) `🔤 Text→Image`
+### Case 3: [90s OVA Retro-Cel Anime Style](https://x.com/doerstokyo342/status/2062060899935100935) (by [@doerstokyo342](https://x.com/doerstokyo342))
 
 | Output |
 | :----: |
@@ -169,11 +171,9 @@ A character portrait in authentic late-1990s OVA anime style: hand-painted cel-s
 > [!NOTE]
 > **Reconstructed prompt** based on the author's description of testing "90s OVA retro-cel" styles. Adjust the decade/studio reference to shift the era.
 
-> Source: [@doerstokyo342 on X](https://x.com/doerstokyo342/status/2062060899935100935)
-
 ## 🎨 Poster & Illustration Cases
 
-### Case 1: [Sumi-e Ink Wash Illustration](https://x.com/mk0600937254693/status/2062147536606126244) (by [@mk0600937254693](https://x.com/mk0600937254693)) `🔤 Text→Image`
+### Case 1: [Sumi-e Ink Wash Illustration](https://x.com/mk0600937254693/status/2062147536606126244) (by [@mk0600937254693](https://x.com/mk0600937254693))
 
 | Output |
 | :----: |
@@ -188,11 +188,9 @@ A traditional Japanese sumi-e ink-wash painting with a soft watercolor feel. Exp
 > [!NOTE]
 > **Reconstructed prompt** based on the author's description (墨絵 / watercolor feel). Swap the subject to apply the ink-wash style to any motif.
 
-> Source: [@mk0600937254693 on X](https://x.com/mk0600937254693/status/2062147536606126244)
-
 ---
 
-### Case 2: [Anime Character Illustration](https://x.com/WaifuGacha/status/2062160277425283384) (by [@WaifuGacha](https://x.com/WaifuGacha)) `🔤 Text→Image`
+### Case 2: [Anime Character Illustration](https://x.com/WaifuGacha/status/2062160277425283384) (by [@WaifuGacha](https://x.com/WaifuGacha))
 
 | Output |
 | :----: |
@@ -207,11 +205,9 @@ A high-quality anime illustration of an original character, clean lineart, vibra
 > [!NOTE]
 > **Reconstructed prompt.** The original post showcased output only without publishing the prompt text.
 
-> Source: [@WaifuGacha on X](https://x.com/WaifuGacha/status/2062160277425283384)
-
 ---
 
-### Case 3: [Pose Edit with Art-Style Preservation](https://x.com/genel_ai/status/2062100730899763367) (by [@genel_ai](https://x.com/genel_ai)) `🖼️ Image→Image`
+### Case 3: [Pose Edit with Art-Style Preservation](https://x.com/genel_ai/status/2062100730899763367) (by [@genel_ai](https://x.com/genel_ai))
 
 | Output |
 | :----: |
@@ -228,11 +224,9 @@ Change only the character's pose to [new pose] while keeping the original artwor
 > [!NOTE]
 > **Reconstructed editing prompt.** Replace `[new pose]` with the target pose. Highlights MAI-Image-2.5's strength at illustration editing that preserves the source art style.
 
-> Source: [@genel_ai on X](https://x.com/genel_ai/status/2062100730899763367)
-
 ## 🖥️ UI & Social Media Mockup Cases
 
-### Case 1: [AI News Top 3 Infographic Card](https://x.com/seisei_ai_1st/status/2061997864646222028) (by [@seisei_ai_1st](https://x.com/seisei_ai_1st)) `🔤 Text→Image`
+### Case 1: [AI News Top 3 Infographic Card](https://x.com/seisei_ai_1st/status/2061997864646222028) (by [@seisei_ai_1st](https://x.com/seisei_ai_1st))
 
 | Output |
 | :----: |
@@ -247,11 +241,9 @@ A clean social-media infographic card titled "AI News Top 3". Three numbered ran
 > [!NOTE]
 > **Reconstructed prompt.** Replace the three ranked items and the title with your own content. Demonstrates MAI-Image-2.5's text-rendering and layout for social cards.
 
-> Source: [@seisei_ai_1st on X](https://x.com/seisei_ai_1st/status/2061997864646222028)
-
 ---
 
-### Case 2: [Model Lineup Social Card](https://x.com/tmiyatake1/status/2061961813009326580) (by [@tmiyatake1](https://x.com/tmiyatake1)) `🔤 Text→Image`
+### Case 2: [Model Lineup Social Card](https://x.com/tmiyatake1/status/2061961813009326580) (by [@tmiyatake1](https://x.com/tmiyatake1))
 
 | Output |
 | :----: |
@@ -266,11 +258,9 @@ A product-announcement social card listing a family of AI models. A bold title a
 > [!NOTE]
 > **Reconstructed prompt.** Edit the title and the model rows for your own lineup. Good template for keynote / launch summary cards.
 
-> Source: [@tmiyatake1 on X](https://x.com/tmiyatake1/status/2061961813009326580)
-
 ## 🆚 Comparison & Community Examples
 
-### Case 1: [Object Removal Edit, Text & Car](https://x.com/WolfRiccardo/status/2061902205779632501) (by [@WolfRiccardo](https://x.com/WolfRiccardo)) `🖼️ Image→Image`
+### Case 1: [Object Removal Edit, Text & Car](https://x.com/WolfRiccardo/status/2061902205779632501) (by [@WolfRiccardo](https://x.com/WolfRiccardo))
 
 | Output |
 | :----: |
@@ -287,11 +277,9 @@ texts and car / remove
 > [!NOTE]
 > The author's verbatim prompt. MAI-Image-2.5 (High) handles terse removal instructions — name the elements to delete and it cleans the scene while preserving the background.
 
-> Source: [@WolfRiccardo on X](https://x.com/WolfRiccardo/status/2061902205779632501)
-
 ---
 
-### Case 2: [MAI-Image-2.5 vs Nano Banana Pro](https://x.com/eyupyusufa/status/2061934129046843543) (by [@eyupyusufa](https://x.com/eyupyusufa)) `🆚 Comparison`
+### Case 2: [MAI-Image-2.5 vs Nano Banana Pro](https://x.com/eyupyusufa/status/2061934129046843543) (by [@eyupyusufa](https://x.com/eyupyusufa))
 
 | Output (left: MAI-Image-2.5, right: Nano Banana Pro) |
 | :----: |
@@ -299,34 +287,6 @@ texts and car / remove
 
 > [!NOTE]
 > Community comparison example — the author published the side-by-side result without a reusable prompt. Included for reference on how MAI-Image-2.5 stacks up against Nano Banana Pro.
-
-> Source: [@eyupyusufa on X](https://x.com/eyupyusufa/status/2061934129046843543)
-
----
-
-### Case 3: [Image-Edit Leaderboard #2 Take](https://x.com/berryxia/status/2061988157349130675) (by [@berryxia](https://x.com/berryxia)) `🆚 Comparison`
-
-| Output |
-| :----: |
-| <img src="images/comparison_case3/output.jpg" width="600" alt="Community comparison of MAI-Image-2.5 image-editing results"> |
-
-> [!NOTE]
-> Community example — image-editing comparison shared alongside commentary that MAI-Image-2.5 reached #2 on the image-edit leaderboard. No reusable prompt was published.
-
-> Source: [@berryxia on X](https://x.com/berryxia/status/2061988157349130675)
-
----
-
-### Case 4: [MAI-Image-2.5 vs 2.5-Flash Positioning](https://x.com/WesRoth/status/2062021457824395476) (by [@WesRoth](https://x.com/WesRoth)) `🆚 Comparison`
-
-| Output |
-| :----: |
-| <img src="images/comparison_case4/output.jpg" width="600" alt="Overview comparing MAI-Image-2.5 and MAI-Image-2.5-Flash"> |
-
-> [!NOTE]
-> Community overview — MAI-Image-2.5 is positioned as the premium maximum-fidelity tier, while MAI-Image-2.5-Flash offers similar quality at lower cost. Reference material, not a reusable prompt.
-
-> Source: [@WesRoth on X](https://x.com/WesRoth/status/2062021457824395476)
 
 ## 🙏 Acknowledge
 
@@ -345,7 +305,6 @@ Thanks to the creators and contributors who shared their MAI-Image-2.5 work publ
 - [@WolfRiccardo](https://x.com/WolfRiccardo)
 - [@eyupyusufa](https://x.com/eyupyusufa)
 - [@berryxia](https://x.com/berryxia)
-- [@WesRoth](https://x.com/WesRoth)
 
 *We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.*
 
