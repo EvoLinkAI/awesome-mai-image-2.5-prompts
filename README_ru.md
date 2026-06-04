@@ -24,69 +24,69 @@
 
 </div>
 
-## 🍌 Introduction
+## 🍌 Введение
 
-Welcome to the MAI-Image-2.5 prompt repository! 🤗
+Добро пожаловать в репозиторий промптов MAI-Image-2.5! 🤗
 
-**We collect high-quality prompts and image examples for Microsoft's MAI-Image-2.5 and MAI-Image-2.5-Flash across portraits, illustration, posters, and image editing.**
+**Мы собираем качественные промпты и примеры изображений для MAI-Image-2.5 и MAI-Image-2.5-Flash от Microsoft — портреты, иллюстрации, постеры и редактирование изображений.**
 
-MAI-Image-2.5 is Microsoft's first fully in-house image model, announced at Microsoft Build 2026 — trained from scratch with no distillation, ranking #2 on the Image Edit Arena and #3 on text-to-image. It is built for photorealistic lighting, precise identity- and text-preserving edits, and high quality per dollar.
+MAI-Image-2.5 — первая полностью собственная модель изображений Microsoft, представленная на Microsoft Build 2026: обучена с нуля без дистилляции, занимает #2 в Image Edit Arena и #3 в text-to-image. Создана для фотореалистичного освещения, точного редактирования с сохранением идентичности и текста, а также высокого качества за свою цену.
 
 <div align="center">
 
 <a href="https://x.com/arena/status/2061887242579382660"><img src="images/leaderboard/output.jpg" width="560" alt="Image Edit Arena leaderboard: MAI-Image-2.5 ranks #2 with a score of 1401"></a>
 
-***MAI-Image-2.5 ranks #2 on the Image Edit Arena (score 1401) — ahead of every Nano Banana variant.*** (leaderboard by [@arena](https://x.com/arena))
+***MAI-Image-2.5 занимает #2 в Image Edit Arena (счёт 1401), опережая все варианты Nano Banana.*** (рейтинг от [@arena](https://x.com/arena))
 
 </div>
 
-Most cases in this repository are curated from X/Twitter, creator communities, and public demos. Original authors are credited on every case.
+Большинство примеров в этом репозитории собраны из X/Twitter, сообществ авторов и публичных демонстраций. Для каждого примера указан первоначальный автор.
 
-Try it on Evolink: [MAI-Image-2.5](https://evolink.ai/models)
+Попробовать в Evolink: [MAI-Image-2.5](https://evolink.ai/models)
 
-If you find this useful, consider giving it a star. ⭐
+Если это полезно, поставьте звезду. ⭐
 
 > [!NOTE]
-> This repository focuses on reusable prompt patterns and reference cases. Prompts marked as **reconstructed** are faithful rebuilds of a showcased result whose author did not publish the exact text — they are clearly flagged so you never mistake them for verbatim author wording.
+> Этот репозиторий посвящён переиспользуемым шаблонам промптов и эталонным примерам. Промпты, помеченные как **реконструировано**, — это точные воссоздания показанного результата, чей автор не опубликовал точный текст; они явно отмечены, чтобы вы не приняли их за дословные слова автора.
 
-## 📰 News
+## 📰 Новости
 
-- **June 4, 2026:** First repository release — 15 curated MAI-Image-2.5 cases across Portrait, Poster, and Comparison categories.
+- **June 4, 2026:** Первый релиз репозитория — 15 отобранных примеров MAI-Image-2.5 в категориях «Портреты», «Постеры» и «Сравнения».
 
-## 📑 Menu
+## 📑 Меню
 
-- [🍌 Introduction](#-introduction)
-- [📰 News](#-news)
-- [📑 Menu](#-menu)
-- [📸 Portrait & Photography Cases](#-portrait--photography-cases)
+- [🍌 Введение](#-введение)
+- [📰 Новости](#-новости)
+- [📑 Меню](#-меню)
+- [📸 Портреты и фотография](#-портреты-и-фотография)
   - [Case 1: Editorial Fashion Portrait, Golden Hour (by @atomtanstudio)](#case-1-editorial-fashion-portrait-golden-hour-by-atomtanstudio)
   - [Case 2: Fashion Sense Battle, Character Consistency (by @grmchn4ai)](#case-2-fashion-sense-battle-character-consistency-by-grmchn4ai)
   - [Case 3: 90s OVA Retro-Cel Anime Style (by @doerstokyo342)](#case-3-90s-ova-retro-cel-anime-style-by-doerstokyo342)
   - [Case 4: Photorealistic Iceberg & Breaching Whale (by @annjose)](#case-4-photorealistic-iceberg--breaching-whale-by-annjose)
   - [Case 5: Amateur iPhone Mirror Selfie (by @SqueakAlGaib)](#case-5-amateur-iphone-mirror-selfie-by-squeakalgaib)
   - [Case 6: Full-Body Office Portrait with Signage (by @thesoragirls)](#case-6-full-body-office-portrait-with-signage-by-thesoragirls)
-- [🎨 Poster & Illustration Cases](#-poster--illustration-cases)
+- [🎨 Постеры и иллюстрации](#-постеры-и-иллюстрации)
   - [Case 1: Sumi-e Ink Wash Illustration (by @mk0600937254693)](#case-1-sumi-e-ink-wash-illustration-by-mk0600937254693)
   - [Case 2: Anime Character Illustration (by @WaifuGacha)](#case-2-anime-character-illustration-by-waifugacha)
   - [Case 3: Pose Edit with Art-Style Preservation (by @genel_ai)](#case-3-pose-edit-with-art-style-preservation-by-genel_ai)
   - [Case 4: Romantic Sublime Cliff Scene (by @RockGrokAI)](#case-4-romantic-sublime-cliff-scene-by-rockgrokai)
-- [🆚 Comparison & Community Examples](#-comparison--community-examples)
+- [🆚 Сравнения и примеры сообщества](#-сравнения-и-примеры-сообщества)
   - [Case 1: Object Removal Edit, Text & Car (by @WolfRiccardo)](#case-1-object-removal-edit-text--car-by-wolfriccardo)
   - [Case 2: MAI-Image-2.5 vs Nano Banana Pro (by @eyupyusufa)](#case-2-mai-image-25-vs-nano-banana-pro-by-eyupyusufa)
   - [Case 3: Text-to-Image vs Nano Banana 2 (by @mrc_748)](#case-3-text-to-image-vs-nano-banana-2-by-mrc_748)
   - [Case 4: Flash vs Standard (by @400_yen)](#case-4-flash-vs-standard-by-400_yen)
   - [Case 5: Official Editing Before/After (OneDrive Photos) (by @MicrosoftAI)](#case-5-official-editing-beforeafter-onedrive-photos-by-microsoftai)
-- [🙏 Acknowledge](#-acknowledge)
+- [🙏 Благодарности](#-благодарности)
 
-## 📸 Portrait & Photography Cases
+## 📸 Портреты и фотография
 
 ### Case 1: [Editorial Fashion Portrait, Golden Hour](https://x.com/atomtanstudio/status/2061905270025150679) (by [@atomtanstudio](https://x.com/atomtanstudio))
 
-| Output (left: MAI-Image-2.5, right: Nano Banana Pro) |
+| Результат (слева: MAI-Image-2.5, справа: Nano Banana Pro) |
 | :----: |
 | <img src="images/portrait_case1/output.jpg" width="600" alt="Editorial fashion portrait generated by MAI-Image-2.5 compared with Nano Banana Pro"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 {
@@ -135,51 +135,51 @@ If you find this useful, consider giving it a star. ⭐
 ```
 
 > [!NOTE]
-> The author's verbatim structured JSON prompt (lightly trimmed for length — full version in [`cases/portrait.md`](cases/portrait.md)). MAI-Image-2.5 accepts plain natural-language prompts too; the JSON form locks many attributes at once.
+> Дословный структурированный JSON-промпт автора (немного сокращён по длине — полная версия в [`cases/portrait.md`](cases/portrait.md)). MAI-Image-2.5 принимает и обычные промпты на естественном языке; форма JSON фиксирует множество атрибутов сразу.
 
 ---
 
 ### Case 2: [Fashion Sense Battle, Character Consistency](https://x.com/grmchn4ai/status/2061924642571559406) (by [@grmchn4ai](https://x.com/grmchn4ai))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/portrait_case2/output.jpg" width="600" alt="Grid of fashion looks keeping the same character identity, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 A 5x3 grid lookbook of the SAME young woman styled in fifteen different complete outfits — streetwear, formal evening, casual denim, athleisure, vintage, avant-garde, business, bohemian, etc. Keep her face, hairstyle and body identity perfectly consistent across every cell. Full-body fashion photography, neutral studio backdrop, soft even lighting, sharp focus, magazine styling. Each look distinct in color palette, silhouette and accessories while the person stays recognizably the same.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The original tweet ran a third-party "fashion sense" comparison prompt and did not publish its exact text; this is a faithful reconstruction of the task.
+> **Реконструированный промпт.** В исходном твите использовался сторонний промпт сравнения «чувства стиля», точный текст не опубликован; это точная реконструкция задачи.
 
 ---
 
 ### Case 3: [90s OVA Retro-Cel Anime Style](https://x.com/doerstokyo342/status/2062060899935100935) (by [@doerstokyo342](https://x.com/doerstokyo342))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/portrait_case3/output.jpg" width="600" alt="Character rendered in 1990s OVA retro cel-shaded anime style by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 A character portrait in authentic late-1990s OVA anime style: hand-painted cel-shading, slightly grainy film texture, muted retro color palette, visible cel-paint banding, soft analog glow. Detailed but not hyper-clean — the imperfect, nostalgic look of vintage Japanese animation cels rather than modern high-resolution rendering. Dramatic anime lighting, expressive eyes, period-accurate character design.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt** based on the author's description of testing "90s OVA retro-cel" styles. Adjust the decade/studio reference to shift the era.
+> **Реконструированный промпт** по описанию автора, тестировавшего стили «90s OVA retro-cel». Измените отсылку к десятилетию/студии, чтобы сместить эпоху.
 
 ---
 
 ### Case 4: [Photorealistic Iceberg & Breaching Whale](https://x.com/annjose/status/2062032759993057737) (by [@annjose](https://x.com/annjose))
 
-| Step 1: Iceberg | Step 2: + Whale | Step 3: + Sunset |
+| Шаг 1: Айсберг | Шаг 2: + Кит | Шаг 3: + Закат |
 | :-------------: | :-------------: | :--------------: |
 | <img src="images/portrait_case4/output0.jpg" width="250" alt="Photorealistic iceberg in an ocean generated by MAI-Image-2.5"> | <img src="images/portrait_case4/output1.jpg" width="250" alt="Blue whale breaching near the iceberg added by MAI-Image-2.5"> | <img src="images/portrait_case4/output2.jpg" width="250" alt="Sunset on the horizon added to the iceberg and whale scene by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 1. create an image of an iceberg in a beautiful ocean with stunning photorealistic way
@@ -188,130 +188,130 @@ A character portrait in authentic late-1990s OVA anime style: hand-painted cel-s
 ```
 
 > [!NOTE]
-> The author's verbatim prompts, applied as three sequential edits on the same image. Run them one after another to build the scene up step by step.
+> Дословные промпты автора, применённые как три последовательных правки к одному изображению. Выполняйте их по очереди, чтобы собирать сцену шаг за шагом.
 
 ---
 
 ### Case 5: [Amateur iPhone Mirror Selfie](https://x.com/SqueakAlGaib/status/2062292091418628270) (by [@SqueakAlGaib](https://x.com/SqueakAlGaib))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/portrait_case5/output.jpg" width="600" alt="Hyper-realistic amateur iPhone mirror selfie of a woman in an elevator, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 Ultra-realistic amateur iPhone front-camera selfie inside a luxury hotel elevator. A stunning young blonde American woman in her mid-20s wearing a fashionable short designer cocktail dress stands casually inside the elevator before a night out. The image feels completely unplanned and spontaneous, not posed for social media. She is naturally beautiful with a charismatic smile, healthy skin texture, subtle makeup, and realistic imperfections. The elevator walls are mirrored on three sides, creating multiple reflections at different angles. The smartphone partially obscures part of her face. Some reflections are cropped by the edge of the frame. Bright ceiling LEDs create realistic glare streaks and reflections across the mirrors. Tiny fingerprints and smudges are visible on the mirror surface. Slight wide-angle front-camera distortion. Uneven framing. One shoulder partially cropped. Authentic smartphone HDR processing. Natural color science. No studio lighting. No influencer aesthetic. The image should feel like an accidental snapshot discovered in a camera roll. Shot on an iPhone front camera, extremely realistic optics, realistic skin pores, realistic fabric texture, subtle sensor noise, slight motion blur in one hand, genuine amateur photography, impossible to distinguish from a real smartphone photo.
 ```
 
 > [!NOTE]
-> The author's verbatim prompt, from a text-to-image test against Nano Banana 2, GPT-Image 2.0, and Grok Imagine. The "amateur / accidental snapshot" framing and explicit imperfections are what drive the realism.
+> Дословный промпт автора из теста text-to-image против Nano Banana 2, GPT-Image 2.0 и Grok Imagine. Подача «любительский / случайный снимок» и намеренные несовершенства и создают реализм.
 
 ---
 
 ### Case 6: [Full-Body Office Portrait with Signage](https://x.com/thesoragirls/status/2062384216210391340) (by [@thesoragirls](https://x.com/thesoragirls))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/portrait_case6/output.jpg" width="400" alt="Full-body photorealistic portrait of a young woman in a tech office with MicrosoftAI HQ wall signage, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 Full-body photorealistic portrait of a young woman walking through a modern tech-office corridor, wearing a lavender cropped tee, denim shorts, white crew socks and chunky white sneakers, an ID badge on a lanyard. Glass-walled meeting rooms with people working in the background, warm wood-panel accents, large windows with soft daylight, polished concrete floor. Wall signage reads "MicrosoftAI HQ". 9:16 vertical, natural lighting, sharp focus, realistic skin and fabric texture, candid editorial feel.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The author posted the output ("Image generated with MAI-Image-2.5") without the prompt text. A good full-body + in-scene text-rendering showcase — edit the wall signage text and outfit to retarget.
+> **Реконструированный промпт.** Автор опубликовал результат («Image generated with MAI-Image-2.5») без текста промпта. Хороший пример съёмки в полный рост + отрисовки текста в сцене — измените надпись на стене и одежду под свою задачу.
 
-## 🎨 Poster & Illustration Cases
+## 🎨 Постеры и иллюстрации
 
 ### Case 1: [Sumi-e Ink Wash Illustration](https://x.com/mk0600937254693/status/2062147536606126244) (by [@mk0600937254693](https://x.com/mk0600937254693))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/poster_case1/output.jpg" width="600" alt="Sumi-e ink wash style illustration generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 A traditional Japanese sumi-e ink-wash painting with a soft watercolor feel. Expressive black ink brushstrokes with controlled bleeding and gradient washes on textured washi paper, generous negative space, minimal restrained color accents. Calm, meditative composition in the style of classical East Asian ink art.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt** based on the author's description (墨絵 / watercolor feel). Swap the subject to apply the ink-wash style to any motif.
+> **Реконструированный промпт** по описанию автора (墨絵 / ощущение акварели). Замените объект, чтобы применить этот стиль туши к любому мотиву.
 
 ---
 
 ### Case 2: [Anime Character Illustration](https://x.com/WaifuGacha/status/2062160277425283384) (by [@WaifuGacha](https://x.com/WaifuGacha))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/poster_case2/output.jpg" width="600" alt="Anime character illustration generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 A high-quality anime illustration of an original character, clean lineart, vibrant cel-style coloring, detailed eyes and hair shading, dynamic composition, soft background bokeh. Modern Japanese illustration aesthetic with crisp linework and polished color grading.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The original post showcased output only without publishing the prompt text.
+> **Реконструированный промпт.** В исходной публикации показан только результат, без текста промпта.
 
 ---
 
 ### Case 3: [Pose Edit with Art-Style Preservation](https://x.com/genel_ai/status/2062100730899763367) (by [@genel_ai](https://x.com/genel_ai))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/poster_case3/output.jpg" width="600" alt="Illustration edited to change pose while keeping the original art style, by MAI-Image-2.5"> |
 
-**Input:** Upload one illustration to edit.
+**Вход:** Загрузите одну иллюстрацию для редактирования.
 
-**Prompt:**
+**Промпт:**
 
 ```
 Change only the character's pose to [new pose] while keeping the original artwork's line style, coloring, character identity, and overall aesthetic completely unchanged. Do not redraw the face or alter the art style — preserve the source illustration's look and only restage the body position.
 ```
 
 > [!NOTE]
-> **Reconstructed editing prompt.** Replace `[new pose]` with the target pose. Highlights MAI-Image-2.5's strength at illustration editing that preserves the source art style.
+> **Реконструированный промпт для редактирования.** Замените `[new pose]` на нужную позу. Подчёркивает сильную сторону MAI-Image-2.5 — редактирование иллюстраций с сохранением исходного стиля.
 
 ---
 
 ### Case 4: [Romantic Sublime Cliff Scene](https://x.com/RockGrokAI/status/2062188994805281183) (by [@RockGrokAI](https://x.com/RockGrokAI))
 
-| Output |
+| Результат |
 | :----: |
 | <img src="images/poster_case4/output.jpg" width="600" alt="19th-century Romantic painting of a woman on a stormy cliff edge, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**Промпт:**
 
 ```
 Set in mid 19th-century, a solitary young woman standing on stormy cliff edge, waves crashing in sublime fury below turbulent sky. 19th-century Romantic sublime, dramatic blue, stormy gray, fiery orange, lush green, overwhelming nature. Raging turbulent storm lightning, heroic low-angle tempestuous windswept pan.
 ```
 
 > [!NOTE]
-> The author's verbatim prompt. Naming the period ("mid 19th-century") and art movement ("Romantic sublime") strongly anchors the painterly style.
+> Дословный промпт автора. Указание эпохи («mid 19th-century») и художественного направления («Romantic sublime») сильно закрепляет живописный стиль.
 
-## 🆚 Comparison & Community Examples
+## 🆚 Сравнения и примеры сообщества
 
 ### Case 1: [Object Removal Edit, Text & Car](https://x.com/WolfRiccardo/status/2061902205779632501) (by [@WolfRiccardo](https://x.com/WolfRiccardo))
 
-| Input | Output |
+| Вход | Результат |
 | :---: | :----: |
 | <img src="images/comparison_case1/input.jpg" width="300" alt="Original Amalfi Coast travel poster with title text and a white car"> | <img src="images/comparison_case1/output.jpg" width="300" alt="Same poster with the title text and car removed by MAI-Image-2.5"> |
 
-**Input:** Upload one photo to edit.
+**Вход:** Загрузите одно фото для редактирования.
 
-**Prompt:**
+**Промпт:**
 
 ```
 texts and car / remove
 ```
 
 > [!NOTE]
-> The author's verbatim prompt. MAI-Image-2.5 (High) handles terse removal instructions — name the elements to delete and it cleans the scene while preserving the background.
+> Дословный промпт автора. MAI-Image-2.5 (High) хорошо понимает краткие команды на удаление — назовите элементы для удаления, и он очистит сцену, сохранив фон.
 
 ---
 
@@ -322,7 +322,7 @@ texts and car / remove
 | <img src="images/comparison_case2/output0.jpg" width="300" alt="MAI-Image-2.5 rendering a Turkish classroom scene with chalkboard text"> | <img src="images/comparison_case2/output1.jpg" width="300" alt="Nano Banana Pro rendering the same Turkish classroom scene with chalkboard text"> |
 
 > [!NOTE]
-> Community comparison example — same prompt run on both models, published without a reusable prompt. A text-rendering test (the Atatürk quote "Hayatta en hakiki mürşit ilimdir.") shown for reference on how MAI-Image-2.5 stacks up against Nano Banana Pro.
+> Пример сравнения от сообщества — один и тот же промпт на обеих моделях, опубликован без переиспользуемого промпта. Тест отрисовки текста (цитата Ататюрка «Hayatta en hakiki mürşit ilimdir.») показан как ориентир того, как MAI-Image-2.5 смотрится против Nano Banana Pro.
 
 ---
 
@@ -333,7 +333,7 @@ texts and car / remove
 | <img src="images/comparison_case3/output0.jpg" width="300" alt="MAI-Image-2.5 photorealistic office selfie"> | <img src="images/comparison_case3/output1.jpg" width="300" alt="Nano Banana 2 rendering of the same office selfie prompt"> |
 
 > [!NOTE]
-> Community comparison example — same prompt on both models, published without a reusable prompt. The author ran a dozen text-to-image comparisons and reported MAI-Image-2.5 coming out on top each time.
+> Пример сравнения от сообщества — один и тот же промпт на обеих моделях, опубликован без переиспользуемого промпта. Автор провёл около десятка сравнений text-to-image и сообщил, что MAI-Image-2.5 побеждал каждый раз.
 
 ---
 
@@ -344,24 +344,24 @@ texts and car / remove
 | <img src="images/comparison_case4/output0.jpg" width="300" alt="MAI-Image-2.5-Flash photorealistic desert scorpion"> | <img src="images/comparison_case4/output1.jpg" width="300" alt="MAI-Image-2.5 standard photorealistic desert scorpion"> |
 
 > [!NOTE]
-> Community comparison example — the author compared the Flash and standard tiers on the same prompt without publishing it. Shown for reference on the quality difference between the two tiers.
+> Пример сравнения от сообщества — автор сравнил уровни Flash и стандартный на одном промпте, не опубликовав его. Показан как ориентир разницы в качестве между двумя уровнями.
 
 ---
 
 ### Case 5: [Official Editing Before/After (OneDrive Photos)](https://x.com/MicrosoftAI/status/2062240408638222471) (by [@MicrosoftAI](https://x.com/MicrosoftAI))
 
-| Before → After |
+| До → После |
 | :----: |
 | <img src="images/comparison_case5/output.png" width="600" alt="MAI-Image-2.5 official before/after editing examples: remove people, boost color, make vibrant, reduce distractions"> |
 
 > [!NOTE]
-> Official before/after editing examples from Microsoft (rolling out in OneDrive Photos): **Remove People**, **Boost Color**, **Make Vibrant**, and **Reduce Distractions** — each shown as an original/edited pair, demonstrating background cleanup that preserves the original scene.
+> Официальные примеры редактирования «до/после» от Microsoft (постепенно появляются в OneDrive Photos): **Удалить людей**, **Усилить цвет**, **Сделать ярче** и **Убрать отвлекающие объекты** — каждый показан парой оригинал/результат и демонстрирует очистку фона с сохранением исходной сцены.
 
-## 🙏 Acknowledge
+## 🙏 Благодарности
 
-This repository was inspired by outstanding open prompt collections and community-shared examples.
+Этот репозиторий вдохновлён выдающимися открытыми коллекциями промптов и примерами, которыми поделилось сообщество.
 
-Thanks to the creators and contributors who shared their MAI-Image-2.5 work publicly and made these case studies possible.
+Спасибо авторам и участникам, которые публично поделились своими работами на MAI-Image-2.5 и сделали возможными эти разборы.
 
 - [@atomtanstudio](https://x.com/atomtanstudio)
 - [@grmchn4ai](https://x.com/grmchn4ai)
@@ -380,8 +380,8 @@ Thanks to the creators and contributors who shared their MAI-Image-2.5 work publ
 - [@MicrosoftAI](https://x.com/MicrosoftAI)
 - [@arena](https://x.com/arena)
 
-*We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.*
+*Мы не можем гарантировать, что каждый пример атрибутирован первоначальному автору. Если что-то нужно исправить, откройте issue, и мы обновим.*
 
-If you have more interesting MAI-Image-2.5 prompt cases to share, feel free to reach out and help us expand the Evolink prompt library.
+Если у вас есть ещё интересные примеры промптов MAI-Image-2.5, напишите нам и помогите расширить библиотеку промптов Evolink.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-mai-image-2.5-prompts&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-mai-image-2.5-prompts&Date)

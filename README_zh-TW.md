@@ -24,69 +24,69 @@
 
 </div>
 
-## 🍌 Introduction
+## 🍌 簡介
 
-Welcome to the MAI-Image-2.5 prompt repository! 🤗
+歡迎來到 MAI-Image-2.5 提示詞倉庫！🤗
 
-**We collect high-quality prompts and image examples for Microsoft's MAI-Image-2.5 and MAI-Image-2.5-Flash across portraits, illustration, posters, and image editing.**
+**我們收集 Microsoft MAI-Image-2.5 與 MAI-Image-2.5-Flash 的高品質提示詞與範例圖，涵蓋人像、插畫、海報與圖像編輯。**
 
-MAI-Image-2.5 is Microsoft's first fully in-house image model, announced at Microsoft Build 2026 — trained from scratch with no distillation, ranking #2 on the Image Edit Arena and #3 on text-to-image. It is built for photorealistic lighting, precise identity- and text-preserving edits, and high quality per dollar.
+MAI-Image-2.5 是 Microsoft 首個完全自研的圖像模型，於 Microsoft Build 2026 發表——從零訓練、零蒸餾，在 Image Edit Arena 排名第 2、文字生成圖像排名第 3。主打寫實光照、可精準保留人物與文字的編輯，以及極高的性價比。
 
 <div align="center">
 
 <a href="https://x.com/arena/status/2061887242579382660"><img src="images/leaderboard/output.jpg" width="560" alt="Image Edit Arena leaderboard: MAI-Image-2.5 ranks #2 with a score of 1401"></a>
 
-***MAI-Image-2.5 ranks #2 on the Image Edit Arena (score 1401) — ahead of every Nano Banana variant.*** (leaderboard by [@arena](https://x.com/arena))
+***MAI-Image-2.5 在 Image Edit Arena 排名第 2（分數 1401），領先所有 Nano Banana 版本。*** (榜單來源： [@arena](https://x.com/arena))
 
 </div>
 
-Most cases in this repository are curated from X/Twitter, creator communities, and public demos. Original authors are credited on every case.
+本倉庫多數案例來自 X/Twitter、創作者社群與公開示範。每個案例都標註原作者。
 
-Try it on Evolink: [MAI-Image-2.5](https://evolink.ai/models)
+在 Evolink 上試用: [MAI-Image-2.5](https://evolink.ai/models)
 
-If you find this useful, consider giving it a star. ⭐
+如果覺得有用，歡迎給個 star。⭐
 
 > [!NOTE]
-> This repository focuses on reusable prompt patterns and reference cases. Prompts marked as **reconstructed** are faithful rebuilds of a showcased result whose author did not publish the exact text — they are clearly flagged so you never mistake them for verbatim author wording.
+> 本倉庫聚焦於可重複使用的提示詞範式與參考案例。標示為 **重構** 的提示詞，是對已展示成果的忠實重建（原作者並未公開確切文字）——已明確標註，避免你誤以為是作者的原話。
 
-## 📰 News
+## 📰 最新消息
 
-- **June 4, 2026:** First repository release — 15 curated MAI-Image-2.5 cases across Portrait, Poster, and Comparison categories.
+- **June 4, 2026:** 倉庫首次發布——精選 15 個 MAI-Image-2.5 案例，涵蓋人像、海報與對比類別。
 
-## 📑 Menu
+## 📑 目錄
 
-- [🍌 Introduction](#-introduction)
-- [📰 News](#-news)
-- [📑 Menu](#-menu)
-- [📸 Portrait & Photography Cases](#-portrait--photography-cases)
+- [🍌 簡介](#-簡介)
+- [📰 最新消息](#-最新消息)
+- [📑 目錄](#-目錄)
+- [📸 人像與攝影案例](#-人像與攝影案例)
   - [Case 1: Editorial Fashion Portrait, Golden Hour (by @atomtanstudio)](#case-1-editorial-fashion-portrait-golden-hour-by-atomtanstudio)
   - [Case 2: Fashion Sense Battle, Character Consistency (by @grmchn4ai)](#case-2-fashion-sense-battle-character-consistency-by-grmchn4ai)
   - [Case 3: 90s OVA Retro-Cel Anime Style (by @doerstokyo342)](#case-3-90s-ova-retro-cel-anime-style-by-doerstokyo342)
   - [Case 4: Photorealistic Iceberg & Breaching Whale (by @annjose)](#case-4-photorealistic-iceberg--breaching-whale-by-annjose)
   - [Case 5: Amateur iPhone Mirror Selfie (by @SqueakAlGaib)](#case-5-amateur-iphone-mirror-selfie-by-squeakalgaib)
   - [Case 6: Full-Body Office Portrait with Signage (by @thesoragirls)](#case-6-full-body-office-portrait-with-signage-by-thesoragirls)
-- [🎨 Poster & Illustration Cases](#-poster--illustration-cases)
+- [🎨 海報與插畫案例](#-海報與插畫案例)
   - [Case 1: Sumi-e Ink Wash Illustration (by @mk0600937254693)](#case-1-sumi-e-ink-wash-illustration-by-mk0600937254693)
   - [Case 2: Anime Character Illustration (by @WaifuGacha)](#case-2-anime-character-illustration-by-waifugacha)
   - [Case 3: Pose Edit with Art-Style Preservation (by @genel_ai)](#case-3-pose-edit-with-art-style-preservation-by-genel_ai)
   - [Case 4: Romantic Sublime Cliff Scene (by @RockGrokAI)](#case-4-romantic-sublime-cliff-scene-by-rockgrokai)
-- [🆚 Comparison & Community Examples](#-comparison--community-examples)
+- [🆚 對比與社群範例](#-對比與社群範例)
   - [Case 1: Object Removal Edit, Text & Car (by @WolfRiccardo)](#case-1-object-removal-edit-text--car-by-wolfriccardo)
   - [Case 2: MAI-Image-2.5 vs Nano Banana Pro (by @eyupyusufa)](#case-2-mai-image-25-vs-nano-banana-pro-by-eyupyusufa)
   - [Case 3: Text-to-Image vs Nano Banana 2 (by @mrc_748)](#case-3-text-to-image-vs-nano-banana-2-by-mrc_748)
   - [Case 4: Flash vs Standard (by @400_yen)](#case-4-flash-vs-standard-by-400_yen)
   - [Case 5: Official Editing Before/After (OneDrive Photos) (by @MicrosoftAI)](#case-5-official-editing-beforeafter-onedrive-photos-by-microsoftai)
-- [🙏 Acknowledge](#-acknowledge)
+- [🙏 致謝](#-致謝)
 
-## 📸 Portrait & Photography Cases
+## 📸 人像與攝影案例
 
 ### Case 1: [Editorial Fashion Portrait, Golden Hour](https://x.com/atomtanstudio/status/2061905270025150679) (by [@atomtanstudio](https://x.com/atomtanstudio))
 
-| Output (left: MAI-Image-2.5, right: Nano Banana Pro) |
+| 輸出 (左: MAI-Image-2.5, 右: Nano Banana Pro) |
 | :----: |
 | <img src="images/portrait_case1/output.jpg" width="600" alt="Editorial fashion portrait generated by MAI-Image-2.5 compared with Nano Banana Pro"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 {
@@ -135,51 +135,51 @@ If you find this useful, consider giving it a star. ⭐
 ```
 
 > [!NOTE]
-> The author's verbatim structured JSON prompt (lightly trimmed for length — full version in [`cases/portrait.md`](cases/portrait.md)). MAI-Image-2.5 accepts plain natural-language prompts too; the JSON form locks many attributes at once.
+> 作者的逐字結構化 JSON 提示詞（因長度略作精簡，完整版見 [`cases/portrait.md`](cases/portrait.md)）。MAI-Image-2.5 也接受一般自然語言提示詞；JSON 形式可一次鎖定多項屬性。
 
 ---
 
 ### Case 2: [Fashion Sense Battle, Character Consistency](https://x.com/grmchn4ai/status/2061924642571559406) (by [@grmchn4ai](https://x.com/grmchn4ai))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/portrait_case2/output.jpg" width="600" alt="Grid of fashion looks keeping the same character identity, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 A 5x3 grid lookbook of the SAME young woman styled in fifteen different complete outfits — streetwear, formal evening, casual denim, athleisure, vintage, avant-garde, business, bohemian, etc. Keep her face, hairstyle and body identity perfectly consistent across every cell. Full-body fashion photography, neutral studio backdrop, soft even lighting, sharp focus, magazine styling. Each look distinct in color palette, silhouette and accessories while the person stays recognizably the same.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The original tweet ran a third-party "fashion sense" comparison prompt and did not publish its exact text; this is a faithful reconstruction of the task.
+> **重構提示詞。** 原推文使用了第三方的「時尚感」對比提示詞，並未公開確切文字；此處為對該任務的忠實重建。
 
 ---
 
 ### Case 3: [90s OVA Retro-Cel Anime Style](https://x.com/doerstokyo342/status/2062060899935100935) (by [@doerstokyo342](https://x.com/doerstokyo342))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/portrait_case3/output.jpg" width="600" alt="Character rendered in 1990s OVA retro cel-shaded anime style by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 A character portrait in authentic late-1990s OVA anime style: hand-painted cel-shading, slightly grainy film texture, muted retro color palette, visible cel-paint banding, soft analog glow. Detailed but not hyper-clean — the imperfect, nostalgic look of vintage Japanese animation cels rather than modern high-resolution rendering. Dramatic anime lighting, expressive eyes, period-accurate character design.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt** based on the author's description of testing "90s OVA retro-cel" styles. Adjust the decade/studio reference to shift the era.
+> 依作者「測試 90 年代 OVA 復古賽璐珞風格」的描述**重構的提示詞**。調整年代／工作室參照即可改變時代感。
 
 ---
 
 ### Case 4: [Photorealistic Iceberg & Breaching Whale](https://x.com/annjose/status/2062032759993057737) (by [@annjose](https://x.com/annjose))
 
-| Step 1: Iceberg | Step 2: + Whale | Step 3: + Sunset |
+| 步驟 1：冰山 | 步驟 2：＋鯨魚 | 步驟 3：＋夕陽 |
 | :-------------: | :-------------: | :--------------: |
 | <img src="images/portrait_case4/output0.jpg" width="250" alt="Photorealistic iceberg in an ocean generated by MAI-Image-2.5"> | <img src="images/portrait_case4/output1.jpg" width="250" alt="Blue whale breaching near the iceberg added by MAI-Image-2.5"> | <img src="images/portrait_case4/output2.jpg" width="250" alt="Sunset on the horizon added to the iceberg and whale scene by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 1. create an image of an iceberg in a beautiful ocean with stunning photorealistic way
@@ -188,130 +188,130 @@ A character portrait in authentic late-1990s OVA anime style: hand-painted cel-s
 ```
 
 > [!NOTE]
-> The author's verbatim prompts, applied as three sequential edits on the same image. Run them one after another to build the scene up step by step.
+> 作者的逐字提示詞，對同一張圖以三次連續編輯套用。請依序執行，逐步堆疊出整個場景。
 
 ---
 
 ### Case 5: [Amateur iPhone Mirror Selfie](https://x.com/SqueakAlGaib/status/2062292091418628270) (by [@SqueakAlGaib](https://x.com/SqueakAlGaib))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/portrait_case5/output.jpg" width="600" alt="Hyper-realistic amateur iPhone mirror selfie of a woman in an elevator, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 Ultra-realistic amateur iPhone front-camera selfie inside a luxury hotel elevator. A stunning young blonde American woman in her mid-20s wearing a fashionable short designer cocktail dress stands casually inside the elevator before a night out. The image feels completely unplanned and spontaneous, not posed for social media. She is naturally beautiful with a charismatic smile, healthy skin texture, subtle makeup, and realistic imperfections. The elevator walls are mirrored on three sides, creating multiple reflections at different angles. The smartphone partially obscures part of her face. Some reflections are cropped by the edge of the frame. Bright ceiling LEDs create realistic glare streaks and reflections across the mirrors. Tiny fingerprints and smudges are visible on the mirror surface. Slight wide-angle front-camera distortion. Uneven framing. One shoulder partially cropped. Authentic smartphone HDR processing. Natural color science. No studio lighting. No influencer aesthetic. The image should feel like an accidental snapshot discovered in a camera roll. Shot on an iPhone front camera, extremely realistic optics, realistic skin pores, realistic fabric texture, subtle sensor noise, slight motion blur in one hand, genuine amateur photography, impossible to distinguish from a real smartphone photo.
 ```
 
 > [!NOTE]
-> The author's verbatim prompt, from a text-to-image test against Nano Banana 2, GPT-Image 2.0, and Grok Imagine. The "amateur / accidental snapshot" framing and explicit imperfections are what drive the realism.
+> 作者的逐字提示詞，出自與 Nano Banana 2、GPT-Image 2.0、Grok Imagine 的文生圖對比測試。「業餘／隨手抓拍」的設定與刻意的瑕疵正是寫實感的來源。
 
 ---
 
 ### Case 6: [Full-Body Office Portrait with Signage](https://x.com/thesoragirls/status/2062384216210391340) (by [@thesoragirls](https://x.com/thesoragirls))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/portrait_case6/output.jpg" width="400" alt="Full-body photorealistic portrait of a young woman in a tech office with MicrosoftAI HQ wall signage, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 Full-body photorealistic portrait of a young woman walking through a modern tech-office corridor, wearing a lavender cropped tee, denim shorts, white crew socks and chunky white sneakers, an ID badge on a lanyard. Glass-walled meeting rooms with people working in the background, warm wood-panel accents, large windows with soft daylight, polished concrete floor. Wall signage reads "MicrosoftAI HQ". 9:16 vertical, natural lighting, sharp focus, realistic skin and fabric texture, candid editorial feel.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The author posted the output ("Image generated with MAI-Image-2.5") without the prompt text. A good full-body + in-scene text-rendering showcase — edit the wall signage text and outfit to retarget.
+> **重構提示詞。** 作者只貼出成果（「Image generated with MAI-Image-2.5」），未附提示詞。是全身＋畫面內文字渲染的好範例——改掉牆面文字與服裝即可套用。
 
-## 🎨 Poster & Illustration Cases
+## 🎨 海報與插畫案例
 
 ### Case 1: [Sumi-e Ink Wash Illustration](https://x.com/mk0600937254693/status/2062147536606126244) (by [@mk0600937254693](https://x.com/mk0600937254693))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/poster_case1/output.jpg" width="600" alt="Sumi-e ink wash style illustration generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 A traditional Japanese sumi-e ink-wash painting with a soft watercolor feel. Expressive black ink brushstrokes with controlled bleeding and gradient washes on textured washi paper, generous negative space, minimal restrained color accents. Calm, meditative composition in the style of classical East Asian ink art.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt** based on the author's description (墨絵 / watercolor feel). Swap the subject to apply the ink-wash style to any motif.
+> 依作者描述（墨絵 / 水彩感）**重構的提示詞**。替換主體即可把這種水墨風格套用到任何題材。
 
 ---
 
 ### Case 2: [Anime Character Illustration](https://x.com/WaifuGacha/status/2062160277425283384) (by [@WaifuGacha](https://x.com/WaifuGacha))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/poster_case2/output.jpg" width="600" alt="Anime character illustration generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 A high-quality anime illustration of an original character, clean lineart, vibrant cel-style coloring, detailed eyes and hair shading, dynamic composition, soft background bokeh. Modern Japanese illustration aesthetic with crisp linework and polished color grading.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The original post showcased output only without publishing the prompt text.
+> **重構提示詞。** 原貼文只展示成果，未公開提示詞文字。
 
 ---
 
 ### Case 3: [Pose Edit with Art-Style Preservation](https://x.com/genel_ai/status/2062100730899763367) (by [@genel_ai](https://x.com/genel_ai))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/poster_case3/output.jpg" width="600" alt="Illustration edited to change pose while keeping the original art style, by MAI-Image-2.5"> |
 
-**Input:** Upload one illustration to edit.
+**輸入:** 上傳一張要編輯的插畫。
 
-**Prompt:**
+**提示詞:**
 
 ```
 Change only the character's pose to [new pose] while keeping the original artwork's line style, coloring, character identity, and overall aesthetic completely unchanged. Do not redraw the face or alter the art style — preserve the source illustration's look and only restage the body position.
 ```
 
 > [!NOTE]
-> **Reconstructed editing prompt.** Replace `[new pose]` with the target pose. Highlights MAI-Image-2.5's strength at illustration editing that preserves the source art style.
+> **重構的編輯提示詞。** 將 `[new pose]` 換成目標姿勢。展現 MAI-Image-2.5 在保留原畫風前提下編輯插畫的強項。
 
 ---
 
 ### Case 4: [Romantic Sublime Cliff Scene](https://x.com/RockGrokAI/status/2062188994805281183) (by [@RockGrokAI](https://x.com/RockGrokAI))
 
-| Output |
+| 輸出 |
 | :----: |
 | <img src="images/poster_case4/output.jpg" width="600" alt="19th-century Romantic painting of a woman on a stormy cliff edge, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**提示詞:**
 
 ```
 Set in mid 19th-century, a solitary young woman standing on stormy cliff edge, waves crashing in sublime fury below turbulent sky. 19th-century Romantic sublime, dramatic blue, stormy gray, fiery orange, lush green, overwhelming nature. Raging turbulent storm lightning, heroic low-angle tempestuous windswept pan.
 ```
 
 > [!NOTE]
-> The author's verbatim prompt. Naming the period ("mid 19th-century") and art movement ("Romantic sublime") strongly anchors the painterly style.
+> 作者的逐字提示詞。點明年代（「mid 19th-century」）與藝術流派（「Romantic sublime」）能強力鎖定繪畫風格。
 
-## 🆚 Comparison & Community Examples
+## 🆚 對比與社群範例
 
 ### Case 1: [Object Removal Edit, Text & Car](https://x.com/WolfRiccardo/status/2061902205779632501) (by [@WolfRiccardo](https://x.com/WolfRiccardo))
 
-| Input | Output |
+| 輸入 | 輸出 |
 | :---: | :----: |
 | <img src="images/comparison_case1/input.jpg" width="300" alt="Original Amalfi Coast travel poster with title text and a white car"> | <img src="images/comparison_case1/output.jpg" width="300" alt="Same poster with the title text and car removed by MAI-Image-2.5"> |
 
-**Input:** Upload one photo to edit.
+**輸入:** 上傳一張要編輯的相片。
 
-**Prompt:**
+**提示詞:**
 
 ```
 texts and car / remove
 ```
 
 > [!NOTE]
-> The author's verbatim prompt. MAI-Image-2.5 (High) handles terse removal instructions — name the elements to delete and it cleans the scene while preserving the background.
+> 作者的逐字提示詞。MAI-Image-2.5（High）能處理簡短的移除指令——指明要刪除的元素，它就會清乾淨並保留背景。
 
 ---
 
@@ -322,7 +322,7 @@ texts and car / remove
 | <img src="images/comparison_case2/output0.jpg" width="300" alt="MAI-Image-2.5 rendering a Turkish classroom scene with chalkboard text"> | <img src="images/comparison_case2/output1.jpg" width="300" alt="Nano Banana Pro rendering the same Turkish classroom scene with chalkboard text"> |
 
 > [!NOTE]
-> Community comparison example — same prompt run on both models, published without a reusable prompt. A text-rendering test (the Atatürk quote "Hayatta en hakiki mürşit ilimdir.") shown for reference on how MAI-Image-2.5 stacks up against Nano Banana Pro.
+> 社群對比範例——相同提示詞在兩個模型上各跑一次，未公開可重用的提示詞。以文字渲染測試（阿塔圖克名言「Hayatta en hakiki mürşit ilimdir.」）作為 MAI-Image-2.5 與 Nano Banana Pro 比較的參考。
 
 ---
 
@@ -333,7 +333,7 @@ texts and car / remove
 | <img src="images/comparison_case3/output0.jpg" width="300" alt="MAI-Image-2.5 photorealistic office selfie"> | <img src="images/comparison_case3/output1.jpg" width="300" alt="Nano Banana 2 rendering of the same office selfie prompt"> |
 
 > [!NOTE]
-> Community comparison example — same prompt on both models, published without a reusable prompt. The author ran a dozen text-to-image comparisons and reported MAI-Image-2.5 coming out on top each time.
+> 社群對比範例——相同提示詞在兩個模型上各跑一次，未公開可重用的提示詞。作者進行了十多組文生圖對比，並表示每次都是 MAI-Image-2.5 勝出。
 
 ---
 
@@ -344,24 +344,24 @@ texts and car / remove
 | <img src="images/comparison_case4/output0.jpg" width="300" alt="MAI-Image-2.5-Flash photorealistic desert scorpion"> | <img src="images/comparison_case4/output1.jpg" width="300" alt="MAI-Image-2.5 standard photorealistic desert scorpion"> |
 
 > [!NOTE]
-> Community comparison example — the author compared the Flash and standard tiers on the same prompt without publishing it. Shown for reference on the quality difference between the two tiers.
+> 社群對比範例——作者以相同提示詞比較 Flash 與標準版（未公開提示詞）。作為兩個版本畫質差異的參考。
 
 ---
 
 ### Case 5: [Official Editing Before/After (OneDrive Photos)](https://x.com/MicrosoftAI/status/2062240408638222471) (by [@MicrosoftAI](https://x.com/MicrosoftAI))
 
-| Before → After |
+| 編輯前 → 編輯後 |
 | :----: |
 | <img src="images/comparison_case5/output.png" width="600" alt="MAI-Image-2.5 official before/after editing examples: remove people, boost color, make vibrant, reduce distractions"> |
 
 > [!NOTE]
-> Official before/after editing examples from Microsoft (rolling out in OneDrive Photos): **Remove People**, **Boost Color**, **Make Vibrant**, and **Reduce Distractions** — each shown as an original/edited pair, demonstrating background cleanup that preserves the original scene.
+> Microsoft 官方的前後對比編輯範例（正陸續在 OneDrive Photos 推出）：**移除人物**、**強化色彩**、**提升鮮豔度** 與 **減少干擾**，皆以原圖／編輯後成對呈現，展示在保留原場景下清理背景的效果。
 
-## 🙏 Acknowledge
+## 🙏 致謝
 
-This repository was inspired by outstanding open prompt collections and community-shared examples.
+本倉庫的靈感來自優秀的開放提示詞合集，以及社群分享的範例。
 
-Thanks to the creators and contributors who shared their MAI-Image-2.5 work publicly and made these case studies possible.
+感謝公開分享 MAI-Image-2.5 作品、讓這些案例得以成形的創作者與貢獻者。
 
 - [@atomtanstudio](https://x.com/atomtanstudio)
 - [@grmchn4ai](https://x.com/grmchn4ai)
@@ -380,8 +380,8 @@ Thanks to the creators and contributors who shared their MAI-Image-2.5 work publ
 - [@MicrosoftAI](https://x.com/MicrosoftAI)
 - [@arena](https://x.com/arena)
 
-*We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.*
+*我們無法保證每個案例都正確標註了原始創作者。若有需要更正之處，請開 issue 告知，我們會更新。*
 
-If you have more interesting MAI-Image-2.5 prompt cases to share, feel free to reach out and help us expand the Evolink prompt library.
+如果你有更多有趣的 MAI-Image-2.5 提示詞案例想分享，歡迎與我們聯絡，一起擴充 Evolink 提示詞庫。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-mai-image-2.5-prompts&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-mai-image-2.5-prompts&Date)

@@ -24,69 +24,69 @@
 
 </div>
 
-## 🍌 Introduction
+## 🍌 소개
 
-Welcome to the MAI-Image-2.5 prompt repository! 🤗
+MAI-Image-2.5 프롬프트 저장소에 오신 것을 환영합니다! 🤗
 
-**We collect high-quality prompts and image examples for Microsoft's MAI-Image-2.5 and MAI-Image-2.5-Flash across portraits, illustration, posters, and image editing.**
+**Microsoft의 MAI-Image-2.5 및 MAI-Image-2.5-Flash를 위한 고품질 프롬프트와 이미지 예시를 인물, 일러스트, 포스터, 이미지 편집 전반에 걸쳐 모읍니다.**
 
-MAI-Image-2.5 is Microsoft's first fully in-house image model, announced at Microsoft Build 2026 — trained from scratch with no distillation, ranking #2 on the Image Edit Arena and #3 on text-to-image. It is built for photorealistic lighting, precise identity- and text-preserving edits, and high quality per dollar.
+MAI-Image-2.5는 Microsoft Build 2026에서 공개된 Microsoft 최초의 완전 자체 개발 이미지 모델입니다. 증류 없이 처음부터 학습되었으며 Image Edit Arena 2위, text-to-image 3위에 올랐습니다. 사실적인 조명, 인물 정체성과 텍스트를 보존하는 정밀한 편집, 그리고 가격 대비 높은 품질을 제공합니다.
 
 <div align="center">
 
 <a href="https://x.com/arena/status/2061887242579382660"><img src="images/leaderboard/output.jpg" width="560" alt="Image Edit Arena leaderboard: MAI-Image-2.5 ranks #2 with a score of 1401"></a>
 
-***MAI-Image-2.5 ranks #2 on the Image Edit Arena (score 1401) — ahead of every Nano Banana variant.*** (leaderboard by [@arena](https://x.com/arena))
+***MAI-Image-2.5는 Image Edit Arena 2위(점수 1401)로, 모든 Nano Banana 변형을 앞섭니다.*** (리더보드 제공: [@arena](https://x.com/arena))
 
 </div>
 
-Most cases in this repository are curated from X/Twitter, creator communities, and public demos. Original authors are credited on every case.
+이 저장소의 사례 대부분은 X/Twitter, 크리에이터 커뮤니티, 공개 데모에서 수집했습니다. 모든 사례에 원작자를 표기합니다.
 
-Try it on Evolink: [MAI-Image-2.5](https://evolink.ai/models)
+Evolink에서 사용해 보기: [MAI-Image-2.5](https://evolink.ai/models)
 
-If you find this useful, consider giving it a star. ⭐
+유용하다면 스타를 눌러 주세요. ⭐
 
 > [!NOTE]
-> This repository focuses on reusable prompt patterns and reference cases. Prompts marked as **reconstructed** are faithful rebuilds of a showcased result whose author did not publish the exact text — they are clearly flagged so you never mistake them for verbatim author wording.
+> 이 저장소는 재사용 가능한 프롬프트 패턴과 참고 사례에 중점을 둡니다. **재구성**으로 표시된 프롬프트는 작성자가 정확한 원문을 공개하지 않은 결과물을 충실히 재현한 것으로, 작성자의 실제 문구로 오해하지 않도록 명확히 표시했습니다.
 
-## 📰 News
+## 📰 소식
 
-- **June 4, 2026:** First repository release — 15 curated MAI-Image-2.5 cases across Portrait, Poster, and Comparison categories.
+- **June 4, 2026:** 저장소 첫 공개 — 인물, 포스터, 비교 카테고리에 걸친 엄선된 MAI-Image-2.5 사례 15개.
 
-## 📑 Menu
+## 📑 메뉴
 
-- [🍌 Introduction](#-introduction)
-- [📰 News](#-news)
-- [📑 Menu](#-menu)
-- [📸 Portrait & Photography Cases](#-portrait--photography-cases)
+- [🍌 소개](#-소개)
+- [📰 소식](#-소식)
+- [📑 메뉴](#-메뉴)
+- [📸 인물 및 사진 사례](#-인물-및-사진-사례)
   - [Case 1: Editorial Fashion Portrait, Golden Hour (by @atomtanstudio)](#case-1-editorial-fashion-portrait-golden-hour-by-atomtanstudio)
   - [Case 2: Fashion Sense Battle, Character Consistency (by @grmchn4ai)](#case-2-fashion-sense-battle-character-consistency-by-grmchn4ai)
   - [Case 3: 90s OVA Retro-Cel Anime Style (by @doerstokyo342)](#case-3-90s-ova-retro-cel-anime-style-by-doerstokyo342)
   - [Case 4: Photorealistic Iceberg & Breaching Whale (by @annjose)](#case-4-photorealistic-iceberg--breaching-whale-by-annjose)
   - [Case 5: Amateur iPhone Mirror Selfie (by @SqueakAlGaib)](#case-5-amateur-iphone-mirror-selfie-by-squeakalgaib)
   - [Case 6: Full-Body Office Portrait with Signage (by @thesoragirls)](#case-6-full-body-office-portrait-with-signage-by-thesoragirls)
-- [🎨 Poster & Illustration Cases](#-poster--illustration-cases)
+- [🎨 포스터 및 일러스트 사례](#-포스터-및-일러스트-사례)
   - [Case 1: Sumi-e Ink Wash Illustration (by @mk0600937254693)](#case-1-sumi-e-ink-wash-illustration-by-mk0600937254693)
   - [Case 2: Anime Character Illustration (by @WaifuGacha)](#case-2-anime-character-illustration-by-waifugacha)
   - [Case 3: Pose Edit with Art-Style Preservation (by @genel_ai)](#case-3-pose-edit-with-art-style-preservation-by-genel_ai)
   - [Case 4: Romantic Sublime Cliff Scene (by @RockGrokAI)](#case-4-romantic-sublime-cliff-scene-by-rockgrokai)
-- [🆚 Comparison & Community Examples](#-comparison--community-examples)
+- [🆚 비교 및 커뮤니티 예시](#-비교-및-커뮤니티-예시)
   - [Case 1: Object Removal Edit, Text & Car (by @WolfRiccardo)](#case-1-object-removal-edit-text--car-by-wolfriccardo)
   - [Case 2: MAI-Image-2.5 vs Nano Banana Pro (by @eyupyusufa)](#case-2-mai-image-25-vs-nano-banana-pro-by-eyupyusufa)
   - [Case 3: Text-to-Image vs Nano Banana 2 (by @mrc_748)](#case-3-text-to-image-vs-nano-banana-2-by-mrc_748)
   - [Case 4: Flash vs Standard (by @400_yen)](#case-4-flash-vs-standard-by-400_yen)
   - [Case 5: Official Editing Before/After (OneDrive Photos) (by @MicrosoftAI)](#case-5-official-editing-beforeafter-onedrive-photos-by-microsoftai)
-- [🙏 Acknowledge](#-acknowledge)
+- [🙏 감사의 말](#-감사의-말)
 
-## 📸 Portrait & Photography Cases
+## 📸 인물 및 사진 사례
 
 ### Case 1: [Editorial Fashion Portrait, Golden Hour](https://x.com/atomtanstudio/status/2061905270025150679) (by [@atomtanstudio](https://x.com/atomtanstudio))
 
-| Output (left: MAI-Image-2.5, right: Nano Banana Pro) |
+| 출력 (왼쪽: MAI-Image-2.5, 오른쪽: Nano Banana Pro) |
 | :----: |
 | <img src="images/portrait_case1/output.jpg" width="600" alt="Editorial fashion portrait generated by MAI-Image-2.5 compared with Nano Banana Pro"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 {
@@ -135,51 +135,51 @@ If you find this useful, consider giving it a star. ⭐
 ```
 
 > [!NOTE]
-> The author's verbatim structured JSON prompt (lightly trimmed for length — full version in [`cases/portrait.md`](cases/portrait.md)). MAI-Image-2.5 accepts plain natural-language prompts too; the JSON form locks many attributes at once.
+> 작성자의 원문 구조화 JSON 프롬프트(길이 때문에 일부 축약, 전체 버전은 [`cases/portrait.md`](cases/portrait.md)). MAI-Image-2.5는 일반 자연어 프롬프트도 지원하며, JSON 형식은 여러 속성을 한 번에 고정합니다.
 
 ---
 
 ### Case 2: [Fashion Sense Battle, Character Consistency](https://x.com/grmchn4ai/status/2061924642571559406) (by [@grmchn4ai](https://x.com/grmchn4ai))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/portrait_case2/output.jpg" width="600" alt="Grid of fashion looks keeping the same character identity, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 A 5x3 grid lookbook of the SAME young woman styled in fifteen different complete outfits — streetwear, formal evening, casual denim, athleisure, vintage, avant-garde, business, bohemian, etc. Keep her face, hairstyle and body identity perfectly consistent across every cell. Full-body fashion photography, neutral studio backdrop, soft even lighting, sharp focus, magazine styling. Each look distinct in color palette, silhouette and accessories while the person stays recognizably the same.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The original tweet ran a third-party "fashion sense" comparison prompt and did not publish its exact text; this is a faithful reconstruction of the task.
+> **재구성 프롬프트.** 원래 트윗은 제3자의 "패션 센스" 비교 프롬프트를 사용했고 정확한 원문은 공개하지 않았습니다. 이는 해당 작업을 충실히 재구성한 것입니다.
 
 ---
 
 ### Case 3: [90s OVA Retro-Cel Anime Style](https://x.com/doerstokyo342/status/2062060899935100935) (by [@doerstokyo342](https://x.com/doerstokyo342))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/portrait_case3/output.jpg" width="600" alt="Character rendered in 1990s OVA retro cel-shaded anime style by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 A character portrait in authentic late-1990s OVA anime style: hand-painted cel-shading, slightly grainy film texture, muted retro color palette, visible cel-paint banding, soft analog glow. Detailed but not hyper-clean — the imperfect, nostalgic look of vintage Japanese animation cels rather than modern high-resolution rendering. Dramatic anime lighting, expressive eyes, period-accurate character design.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt** based on the author's description of testing "90s OVA retro-cel" styles. Adjust the decade/studio reference to shift the era.
+> 작성자가 "90s OVA retro-cel" 스타일을 테스트했다는 설명을 바탕으로 한 **재구성 프롬프트**. 연대/스튜디오 참조를 바꾸면 시대감을 조정할 수 있습니다.
 
 ---
 
 ### Case 4: [Photorealistic Iceberg & Breaching Whale](https://x.com/annjose/status/2062032759993057737) (by [@annjose](https://x.com/annjose))
 
-| Step 1: Iceberg | Step 2: + Whale | Step 3: + Sunset |
+| 1단계: 빙산 | 2단계: + 고래 | 3단계: + 노을 |
 | :-------------: | :-------------: | :--------------: |
 | <img src="images/portrait_case4/output0.jpg" width="250" alt="Photorealistic iceberg in an ocean generated by MAI-Image-2.5"> | <img src="images/portrait_case4/output1.jpg" width="250" alt="Blue whale breaching near the iceberg added by MAI-Image-2.5"> | <img src="images/portrait_case4/output2.jpg" width="250" alt="Sunset on the horizon added to the iceberg and whale scene by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 1. create an image of an iceberg in a beautiful ocean with stunning photorealistic way
@@ -188,130 +188,130 @@ A character portrait in authentic late-1990s OVA anime style: hand-painted cel-s
 ```
 
 > [!NOTE]
-> The author's verbatim prompts, applied as three sequential edits on the same image. Run them one after another to build the scene up step by step.
+> 작성자의 원문 프롬프트로, 같은 이미지에 세 번의 연속 편집으로 적용합니다. 차례대로 실행해 장면을 단계적으로 완성하세요.
 
 ---
 
 ### Case 5: [Amateur iPhone Mirror Selfie](https://x.com/SqueakAlGaib/status/2062292091418628270) (by [@SqueakAlGaib](https://x.com/SqueakAlGaib))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/portrait_case5/output.jpg" width="600" alt="Hyper-realistic amateur iPhone mirror selfie of a woman in an elevator, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 Ultra-realistic amateur iPhone front-camera selfie inside a luxury hotel elevator. A stunning young blonde American woman in her mid-20s wearing a fashionable short designer cocktail dress stands casually inside the elevator before a night out. The image feels completely unplanned and spontaneous, not posed for social media. She is naturally beautiful with a charismatic smile, healthy skin texture, subtle makeup, and realistic imperfections. The elevator walls are mirrored on three sides, creating multiple reflections at different angles. The smartphone partially obscures part of her face. Some reflections are cropped by the edge of the frame. Bright ceiling LEDs create realistic glare streaks and reflections across the mirrors. Tiny fingerprints and smudges are visible on the mirror surface. Slight wide-angle front-camera distortion. Uneven framing. One shoulder partially cropped. Authentic smartphone HDR processing. Natural color science. No studio lighting. No influencer aesthetic. The image should feel like an accidental snapshot discovered in a camera roll. Shot on an iPhone front camera, extremely realistic optics, realistic skin pores, realistic fabric texture, subtle sensor noise, slight motion blur in one hand, genuine amateur photography, impossible to distinguish from a real smartphone photo.
 ```
 
 > [!NOTE]
-> The author's verbatim prompt, from a text-to-image test against Nano Banana 2, GPT-Image 2.0, and Grok Imagine. The "amateur / accidental snapshot" framing and explicit imperfections are what drive the realism.
+> 작성자의 원문 프롬프트로, Nano Banana 2, GPT-Image 2.0, Grok Imagine와의 text-to-image 비교에서 가져왔습니다. "아마추어 / 우연한 스냅" 설정과 의도적인 결함이 사실감을 만듭니다.
 
 ---
 
 ### Case 6: [Full-Body Office Portrait with Signage](https://x.com/thesoragirls/status/2062384216210391340) (by [@thesoragirls](https://x.com/thesoragirls))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/portrait_case6/output.jpg" width="400" alt="Full-body photorealistic portrait of a young woman in a tech office with MicrosoftAI HQ wall signage, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 Full-body photorealistic portrait of a young woman walking through a modern tech-office corridor, wearing a lavender cropped tee, denim shorts, white crew socks and chunky white sneakers, an ID badge on a lanyard. Glass-walled meeting rooms with people working in the background, warm wood-panel accents, large windows with soft daylight, polished concrete floor. Wall signage reads "MicrosoftAI HQ". 9:16 vertical, natural lighting, sharp focus, realistic skin and fabric texture, candid editorial feel.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The author posted the output ("Image generated with MAI-Image-2.5") without the prompt text. A good full-body + in-scene text-rendering showcase — edit the wall signage text and outfit to retarget.
+> **재구성 프롬프트.** 작성자는 결과물("Image generated with MAI-Image-2.5")만 올리고 프롬프트 원문은 공개하지 않았습니다. 전신 + 장면 내 텍스트 렌더링의 좋은 예시 — 벽 문구와 의상을 바꿔 응용하세요.
 
-## 🎨 Poster & Illustration Cases
+## 🎨 포스터 및 일러스트 사례
 
 ### Case 1: [Sumi-e Ink Wash Illustration](https://x.com/mk0600937254693/status/2062147536606126244) (by [@mk0600937254693](https://x.com/mk0600937254693))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/poster_case1/output.jpg" width="600" alt="Sumi-e ink wash style illustration generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 A traditional Japanese sumi-e ink-wash painting with a soft watercolor feel. Expressive black ink brushstrokes with controlled bleeding and gradient washes on textured washi paper, generous negative space, minimal restrained color accents. Calm, meditative composition in the style of classical East Asian ink art.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt** based on the author's description (墨絵 / watercolor feel). Swap the subject to apply the ink-wash style to any motif.
+> 작성자의 설명(墨絵 / 수채 느낌)을 바탕으로 한 **재구성 프롬프트**. 대상을 바꾸면 이 수묵 스타일을 어떤 소재에도 적용할 수 있습니다.
 
 ---
 
 ### Case 2: [Anime Character Illustration](https://x.com/WaifuGacha/status/2062160277425283384) (by [@WaifuGacha](https://x.com/WaifuGacha))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/poster_case2/output.jpg" width="600" alt="Anime character illustration generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 A high-quality anime illustration of an original character, clean lineart, vibrant cel-style coloring, detailed eyes and hair shading, dynamic composition, soft background bokeh. Modern Japanese illustration aesthetic with crisp linework and polished color grading.
 ```
 
 > [!NOTE]
-> **Reconstructed prompt.** The original post showcased output only without publishing the prompt text.
+> **재구성 프롬프트.** 원래 게시물은 결과물만 보여 주고 프롬프트 원문은 공개하지 않았습니다.
 
 ---
 
 ### Case 3: [Pose Edit with Art-Style Preservation](https://x.com/genel_ai/status/2062100730899763367) (by [@genel_ai](https://x.com/genel_ai))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/poster_case3/output.jpg" width="600" alt="Illustration edited to change pose while keeping the original art style, by MAI-Image-2.5"> |
 
-**Input:** Upload one illustration to edit.
+**입력:** 편집할 일러스트 1장을 업로드하세요.
 
-**Prompt:**
+**프롬프트:**
 
 ```
 Change only the character's pose to [new pose] while keeping the original artwork's line style, coloring, character identity, and overall aesthetic completely unchanged. Do not redraw the face or alter the art style — preserve the source illustration's look and only restage the body position.
 ```
 
 > [!NOTE]
-> **Reconstructed editing prompt.** Replace `[new pose]` with the target pose. Highlights MAI-Image-2.5's strength at illustration editing that preserves the source art style.
+> **재구성 편집 프롬프트.** `[new pose]`를 원하는 포즈로 바꾸세요. 원본 화풍을 유지한 채 일러스트를 편집하는 MAI-Image-2.5의 강점을 보여 줍니다.
 
 ---
 
 ### Case 4: [Romantic Sublime Cliff Scene](https://x.com/RockGrokAI/status/2062188994805281183) (by [@RockGrokAI](https://x.com/RockGrokAI))
 
-| Output |
+| 출력 |
 | :----: |
 | <img src="images/poster_case4/output.jpg" width="600" alt="19th-century Romantic painting of a woman on a stormy cliff edge, generated by MAI-Image-2.5"> |
 
-**Prompt:**
+**프롬프트:**
 
 ```
 Set in mid 19th-century, a solitary young woman standing on stormy cliff edge, waves crashing in sublime fury below turbulent sky. 19th-century Romantic sublime, dramatic blue, stormy gray, fiery orange, lush green, overwhelming nature. Raging turbulent storm lightning, heroic low-angle tempestuous windswept pan.
 ```
 
 > [!NOTE]
-> The author's verbatim prompt. Naming the period ("mid 19th-century") and art movement ("Romantic sublime") strongly anchors the painterly style.
+> 작성자의 원문 프롬프트. 시대("mid 19th-century")와 예술 사조("Romantic sublime")를 명시하면 회화적 스타일이 강하게 고정됩니다.
 
-## 🆚 Comparison & Community Examples
+## 🆚 비교 및 커뮤니티 예시
 
 ### Case 1: [Object Removal Edit, Text & Car](https://x.com/WolfRiccardo/status/2061902205779632501) (by [@WolfRiccardo](https://x.com/WolfRiccardo))
 
-| Input | Output |
+| 입력 | 출력 |
 | :---: | :----: |
 | <img src="images/comparison_case1/input.jpg" width="300" alt="Original Amalfi Coast travel poster with title text and a white car"> | <img src="images/comparison_case1/output.jpg" width="300" alt="Same poster with the title text and car removed by MAI-Image-2.5"> |
 
-**Input:** Upload one photo to edit.
+**입력:** 편집할 사진 1장을 업로드하세요.
 
-**Prompt:**
+**프롬프트:**
 
 ```
 texts and car / remove
 ```
 
 > [!NOTE]
-> The author's verbatim prompt. MAI-Image-2.5 (High) handles terse removal instructions — name the elements to delete and it cleans the scene while preserving the background.
+> 작성자의 원문 프롬프트. MAI-Image-2.5(High)는 간결한 제거 지시도 잘 처리합니다 — 지울 요소를 지정하면 배경을 유지한 채 장면을 깔끔하게 정리합니다.
 
 ---
 
@@ -322,7 +322,7 @@ texts and car / remove
 | <img src="images/comparison_case2/output0.jpg" width="300" alt="MAI-Image-2.5 rendering a Turkish classroom scene with chalkboard text"> | <img src="images/comparison_case2/output1.jpg" width="300" alt="Nano Banana Pro rendering the same Turkish classroom scene with chalkboard text"> |
 
 > [!NOTE]
-> Community comparison example — same prompt run on both models, published without a reusable prompt. A text-rendering test (the Atatürk quote "Hayatta en hakiki mürşit ilimdir.") shown for reference on how MAI-Image-2.5 stacks up against Nano Banana Pro.
+> 커뮤니티 비교 예시 — 동일 프롬프트를 두 모델에 실행했으며 재사용 가능한 프롬프트는 공개되지 않았습니다. 텍스트 렌더링 테스트(아타튀르크 명언 "Hayatta en hakiki mürşit ilimdir.")로 MAI-Image-2.5와 Nano Banana Pro를 비교한 참고용입니다.
 
 ---
 
@@ -333,7 +333,7 @@ texts and car / remove
 | <img src="images/comparison_case3/output0.jpg" width="300" alt="MAI-Image-2.5 photorealistic office selfie"> | <img src="images/comparison_case3/output1.jpg" width="300" alt="Nano Banana 2 rendering of the same office selfie prompt"> |
 
 > [!NOTE]
-> Community comparison example — same prompt on both models, published without a reusable prompt. The author ran a dozen text-to-image comparisons and reported MAI-Image-2.5 coming out on top each time.
+> 커뮤니티 비교 예시 — 동일 프롬프트를 두 모델에 실행했으며 재사용 가능한 프롬프트는 공개되지 않았습니다. 작성자는 십여 차례의 text-to-image 비교를 수행했고 매번 MAI-Image-2.5가 앞섰다고 보고했습니다.
 
 ---
 
@@ -344,24 +344,24 @@ texts and car / remove
 | <img src="images/comparison_case4/output0.jpg" width="300" alt="MAI-Image-2.5-Flash photorealistic desert scorpion"> | <img src="images/comparison_case4/output1.jpg" width="300" alt="MAI-Image-2.5 standard photorealistic desert scorpion"> |
 
 > [!NOTE]
-> Community comparison example — the author compared the Flash and standard tiers on the same prompt without publishing it. Shown for reference on the quality difference between the two tiers.
+> 커뮤니티 비교 예시 — 작성자가 동일 프롬프트로 Flash와 표준 등급을 비교했으며 프롬프트는 공개하지 않았습니다. 두 등급 간 품질 차이의 참고용으로 제시합니다.
 
 ---
 
 ### Case 5: [Official Editing Before/After (OneDrive Photos)](https://x.com/MicrosoftAI/status/2062240408638222471) (by [@MicrosoftAI](https://x.com/MicrosoftAI))
 
-| Before → After |
+| 편집 전 → 편집 후 |
 | :----: |
 | <img src="images/comparison_case5/output.png" width="600" alt="MAI-Image-2.5 official before/after editing examples: remove people, boost color, make vibrant, reduce distractions"> |
 
 > [!NOTE]
-> Official before/after editing examples from Microsoft (rolling out in OneDrive Photos): **Remove People**, **Boost Color**, **Make Vibrant**, and **Reduce Distractions** — each shown as an original/edited pair, demonstrating background cleanup that preserves the original scene.
+> Microsoft 공식 전/후 편집 예시(OneDrive Photos에 순차 배포): **사람 제거**, **색감 강화**, **생동감 향상**, **방해 요소 줄이기**. 각각 원본/편집본 쌍으로 제시되어 원래 장면을 보존하면서 배경을 정리하는 모습을 보여 줍니다.
 
-## 🙏 Acknowledge
+## 🙏 감사의 말
 
-This repository was inspired by outstanding open prompt collections and community-shared examples.
+이 저장소는 훌륭한 공개 프롬프트 모음과 커뮤니티가 공유한 예시에서 영감을 받았습니다.
 
-Thanks to the creators and contributors who shared their MAI-Image-2.5 work publicly and made these case studies possible.
+MAI-Image-2.5 작업물을 공개적으로 공유하여 이 사례 연구를 가능하게 해 준 제작자와 기여자분들께 감사드립니다.
 
 - [@atomtanstudio](https://x.com/atomtanstudio)
 - [@grmchn4ai](https://x.com/grmchn4ai)
@@ -380,8 +380,8 @@ Thanks to the creators and contributors who shared their MAI-Image-2.5 work publ
 - [@MicrosoftAI](https://x.com/MicrosoftAI)
 - [@arena](https://x.com/arena)
 
-*We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.*
+*모든 사례가 원작자에게 올바르게 귀속되었다고 보장할 수는 없습니다. 수정이 필요하면 issue를 열어 주시면 업데이트하겠습니다.*
 
-If you have more interesting MAI-Image-2.5 prompt cases to share, feel free to reach out and help us expand the Evolink prompt library.
+더 흥미로운 MAI-Image-2.5 프롬프트 사례가 있다면 언제든 연락 주세요. Evolink 프롬프트 라이브러리 확장에 도움을 주세요.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=EvoLinkAI/awesome-mai-image-2.5-prompts&type=Date)](https://www.star-history.com/#EvoLinkAI/awesome-mai-image-2.5-prompts&Date)
