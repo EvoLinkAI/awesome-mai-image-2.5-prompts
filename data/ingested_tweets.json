@@ -3,7 +3,7 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "case_count": 12,
+  "case_count": 13,
   "featured_count": 1,
   "records": [
     {
@@ -92,6 +92,24 @@
         "images/portrait_case4/output2.jpg"
       ],
       "ingested_at": "2026-06-04"
+    },
+    {
+      "tweet_url": "https://x.com/SqueakAlGaib/status/2062292091418628270",
+      "author_handle": "@SqueakAlGaib",
+      "author_url": "https://x.com/SqueakAlGaib",
+      "lang": "en",
+      "title": "Amateur iPhone Mirror Selfie",
+      "category": "Portrait & Photography",
+      "category_slug": "portrait",
+      "case_number": 5,
+      "folder_name": "portrait_case5",
+      "role": "case",
+      "prompt_source": "real",
+      "images": [
+        "images/portrait_case5/output.jpg"
+      ],
+      "ingested_at": "2026-06-04",
+      "source_dataset": "mai-image-2.5/mai-image-2.5-12h-incremental-2026-06-04.json"
     },
     {
       "tweet_url": "https://x.com/mk0600937254693/status/2062147536606126244",
