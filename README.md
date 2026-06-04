@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="images/logo.svg" alt="Awesome MAI-Image-2.5 Prompts logo" width="640">
+<a href="https://evolink.ai"><img src="images/logo.png" alt="Awesome MAI-Image-2.5 Prompts — use MAI Image 2.5 API on EvoLinkAI" width="640"></a>
 
 # Awesome MAI-Image-2.5 Prompts
 
@@ -24,14 +24,6 @@
 
 </div>
 
-<div align="center">
-
-<a href="https://x.com/arena/status/2061887242579382660"><img src="images/leaderboard/output.jpg" width="560" alt="Image Edit Arena leaderboard: MAI-Image-2.5 ranks #2 with a score of 1401"></a>
-
-***MAI-Image-2.5 ranks #2 on the Image Edit Arena (score 1401) — ahead of every Nano Banana variant.*** (leaderboard by [@arena](https://x.com/arena))
-
-</div>
-
 ## 🍌 Introduction
 
 Welcome to the MAI-Image-2.5 prompt repository! 🤗
@@ -39,6 +31,14 @@ Welcome to the MAI-Image-2.5 prompt repository! 🤗
 **We collect high-quality prompts and image examples for Microsoft's MAI-Image-2.5 and MAI-Image-2.5-Flash across portraits, illustration, posters, and image editing.**
 
 MAI-Image-2.5 is Microsoft's first fully in-house image model, announced at Microsoft Build 2026 — trained from scratch with no distillation, ranking #2 on the Image Edit Arena and #3 on text-to-image. It is built for photorealistic lighting, precise identity- and text-preserving edits, and high quality per dollar.
+
+<div align="center">
+
+<a href="https://x.com/arena/status/2061887242579382660"><img src="images/leaderboard/output.jpg" width="560" alt="Image Edit Arena leaderboard: MAI-Image-2.5 ranks #2 with a score of 1401"></a>
+
+***MAI-Image-2.5 ranks #2 on the Image Edit Arena (score 1401) — ahead of every Nano Banana variant.*** (leaderboard by [@arena](https://x.com/arena))
+
+</div>
 
 Most cases in this repository are curated from X/Twitter, creator communities, and public demos. Original authors are credited on every case.
 
@@ -48,10 +48,6 @@ If you find this useful, consider giving it a star. ⭐
 
 > [!NOTE]
 > This repository focuses on reusable prompt patterns and reference cases. Prompts marked as **reconstructed** are faithful rebuilds of a showcased result whose author did not publish the exact text — they are clearly flagged so you never mistake them for verbatim author wording.
-
-<a href='https://evolink.ai'><img src='https://img.shields.io/badge/🚀 Try%20it%20on-Evolink-black' height="25"></a>
-<a href='https://evolink.ai'><img src='https://img.shields.io/badge/🌐 Website-Evolink-orange' height="25"></a>
-<a href='https://evolink.ai'><img src='https://img.shields.io/badge/📘 Docs-Evolink-blue' height="25"></a>
 
 ## 📰 News
 
