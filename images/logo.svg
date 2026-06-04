@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Awesome MAI-Image-2.5 Prompts">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#141a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ea8de"/>
+      <stop offset="1" stop-color="#8338ec"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="64" y="150" width="120" height="120" rx="24" fill="none" stroke="url(#accent)" stroke-width="8"/>
+  <circle cx="104" cy="190" r="14" fill="#ffb703"/>
+  <path d="M76 244 L116 200 L150 234 L172 214" fill="none" stroke="#78c8ff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="232" y="205" font-family="Helvetica, Arial, sans-serif" font-size="92" font-weight="700" fill="#ffffff">MAI-Image-2.5</text>
+  <text x="234" y="285" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="600" fill="#78c8ff" letter-spacing="2">Awesome Prompts</text>
+  <text x="236" y="340" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#9aa4bf">Curated prompts &amp; image cases for Microsoft MAI-Image-2.5</text>
+</svg>
