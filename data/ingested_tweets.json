@@ -3,7 +3,7 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "case_count": 8,
+  "case_count": 10,
   "featured_count": 1,
   "records": [
     {
@@ -75,6 +75,25 @@
       "ingested_at": "2026-06-04"
     },
     {
+      "tweet_url": "https://x.com/annjose/status/2062032759993057737",
+      "author_handle": "@annjose",
+      "author_url": "https://x.com/annjose",
+      "lang": "en",
+      "title": "Photorealistic Iceberg & Breaching Whale",
+      "category": "Portrait & Photography",
+      "category_slug": "portrait",
+      "case_number": 4,
+      "folder_name": "portrait_case4",
+      "role": "case",
+      "prompt_source": "real",
+      "images": [
+        "images/portrait_case4/output0.jpg",
+        "images/portrait_case4/output1.jpg",
+        "images/portrait_case4/output2.jpg"
+      ],
+      "ingested_at": "2026-06-04"
+    },
+    {
       "tweet_url": "https://x.com/mk0600937254693/status/2062147536606126244",
       "author_handle": "@mk0600937254693",
       "author_url": "https://x.com/mk0600937254693",
@@ -122,6 +141,23 @@
       "prompt_source": "reconstructed",
       "images": [
         "images/poster_case3/output.jpg"
+      ],
+      "ingested_at": "2026-06-04"
+    },
+    {
+      "tweet_url": "https://x.com/RockGrokAI/status/2062188994805281183",
+      "author_handle": "@RockGrokAI",
+      "author_url": "https://x.com/RockGrokAI",
+      "lang": "en",
+      "title": "Romantic Sublime Cliff Scene",
+      "category": "Poster & Illustration",
+      "category_slug": "poster",
+      "case_number": 4,
+      "folder_name": "poster_case4",
+      "role": "case",
+      "prompt_source": "real",
+      "images": [
+        "images/poster_case4/output.jpg"
       ],
       "ingested_at": "2026-06-04"
     },
