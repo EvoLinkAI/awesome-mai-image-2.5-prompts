@@ -3,7 +3,7 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "case_count": 9,
+  "case_count": 8,
   "featured_count": 1,
   "records": [
     {
@@ -122,23 +122,6 @@
       "prompt_source": "reconstructed",
       "images": [
         "images/poster_case3/output.jpg"
-      ],
-      "ingested_at": "2026-06-04"
-    },
-    {
-      "tweet_url": "https://x.com/tmiyatake1/status/2061961813009326580",
-      "author_handle": "@tmiyatake1",
-      "author_url": "https://x.com/tmiyatake1",
-      "lang": "ja",
-      "title": "Model Lineup Social Card",
-      "category": "UI & Social Media Mockup",
-      "category_slug": "ui",
-      "case_number": 1,
-      "folder_name": "ui_case1",
-      "role": "case",
-      "prompt_source": "reconstructed",
-      "images": [
-        "images/ui_case1/output.jpg"
       ],
       "ingested_at": "2026-06-04"
     },
