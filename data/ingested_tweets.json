@@ -3,7 +3,7 @@
   "model": "MAI-Image-2.5",
   "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
   "last_updated": "2026-06-04",
-  "case_count": 13,
+  "case_count": 14,
   "featured_count": 1,
   "records": [
     {
@@ -107,6 +107,24 @@
       "prompt_source": "real",
       "images": [
         "images/portrait_case5/output.jpg"
+      ],
+      "ingested_at": "2026-06-04",
+      "source_dataset": "mai-image-2.5/mai-image-2.5-12h-incremental-2026-06-04.json"
+    },
+    {
+      "tweet_url": "https://x.com/thesoragirls/status/2062384216210391340",
+      "author_handle": "@thesoragirls",
+      "author_url": "https://x.com/thesoragirls",
+      "lang": "en",
+      "title": "Full-Body Office Portrait with Signage",
+      "category": "Portrait & Photography",
+      "category_slug": "portrait",
+      "case_number": 6,
+      "folder_name": "portrait_case6",
+      "role": "case",
+      "prompt_source": "reconstructed",
+      "images": [
+        "images/portrait_case6/output.jpg"
       ],
       "ingested_at": "2026-06-04",
       "source_dataset": "mai-image-2.5/mai-image-2.5-12h-incremental-2026-06-04.json"
