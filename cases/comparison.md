@@ -61,3 +61,13 @@ texts and car / remove
 > [!NOTE]
 > Official before/after editing examples from Microsoft (rolling out in OneDrive Photos): **Remove People**, **Boost Color**, **Make Vibrant**, and **Reduce Distractions** — each shown as an original/edited pair, demonstrating background cleanup that preserves the original scene.
 
+---
+
+### Case 6: [Anime Character Sheet Comparison](https://x.com/wish_society/status/2062519409923751965) (by [@wish_society](https://x.com/wish_society))
+
+| Nano Banana | MAI-Image-2.5 |
+| :---------: | :-----------: |
+| <img src="../images/comparison_case6/output0.jpg" width="300" alt="Nano Banana result from an anime-style character sheet refinement comparison"> | <img src="../images/comparison_case6/output1.jpg" width="300" alt="MAI-Image-2.5 result from the same anime-style character sheet refinement comparison"> |
+
+> [!NOTE]
+> Community comparison example — no reusable prompt was published, but the side-by-side is still useful as a finishing/editing reference. The author's takeaway was that MAI-Image-2.5 preserved color richness and fidelity better than GPT Image and Nano Banana during final-stage edits.

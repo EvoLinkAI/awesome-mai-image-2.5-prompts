@@ -1,10 +1,4 @@
 {
-  "repo": "EvoLinkAI/awesome-mai-image-2.5-prompts",
-  "model": "MAI-Image-2.5",
-  "source_dataset": "mai-image-2.5/mai-image-2.5-repo-media.json",
-  "last_updated": "2026-06-04",
-  "case_count": 15,
-  "featured_count": 1,
   "records": [
     {
       "tweet_url": "https://x.com/arena/status/2061887242579382660",
@@ -286,6 +280,36 @@
       ],
       "ingested_at": "2026-06-04",
       "source_dataset": "mai-image-2.5/mai-image-2.5-12h-incremental-2026-06-04.json"
+    },
+    {
+      "tweet_url": "https://x.com/Gdgtify/status/2062463116852539651",
+      "author_handle": "Gdgtify",
+      "title": "Historical Gummies & Chibi Emperors",
+      "category": "Poster & Illustration Cases",
+      "readme_file": "README.md",
+      "case_anchor": "case-5-historical-gummies--chibi-emperors-by-gdgtify",
+      "image_dir": "images/poster_case5",
+      "added_at": "2026-06-05T08:06:12.607285+00:00"
+    },
+    {
+      "tweet_url": "https://x.com/RockGrokAI/status/2062529686480081285",
+      "author_handle": "RockGrokAI",
+      "title": "Cybernetic Horse in Luminous Hall",
+      "category": "Poster & Illustration Cases",
+      "readme_file": "README.md",
+      "case_anchor": "case-6-cybernetic-horse-in-luminous-hall-by-rockgrokai",
+      "image_dir": "images/poster_case6",
+      "added_at": "2026-06-05T08:06:12.607285+00:00"
+    },
+    {
+      "tweet_url": "https://x.com/wish_society/status/2062519409923751965",
+      "author_handle": "wish_society",
+      "title": "Anime Character Sheet Comparison",
+      "category": "Comparison & Community Examples",
+      "readme_file": "README.md",
+      "case_anchor": "case-6-anime-character-sheet-comparison-by-wish_society",
+      "image_dir": "images/comparison_case6",
+      "added_at": "2026-06-05T08:06:12.607285+00:00"
     }
   ]
 }

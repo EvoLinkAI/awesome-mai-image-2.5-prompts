@@ -68,3 +68,53 @@ Set in mid 19th-century, a solitary young woman standing on stormy cliff edge, w
 > [!NOTE]
 > The author's verbatim prompt. Naming the period ("mid 19th-century") and art movement ("Romantic sublime") strongly anchors the painterly style.
 
+---
+
+### Case 5: [Historical Gummies & Chibi Emperors](https://x.com/Gdgtify/status/2062463116852539651) (by [@Gdgtify](https://x.com/Gdgtify))
+
+| Historical Gummies | Chibi Emperors |
+| :----------------: | :------------: |
+| <img src="../images/poster_case5/output0.jpg" width="300" alt="Four historical scenes rendered as translucent gummy compositions by MAI-Image-2.5"> | <img src="../images/poster_case5/output1.jpg" width="300" alt="Four historical emperors rendered as chibi PVC figure concepts by MAI-Image-2.5"> |
+
+**Prompt:**
+
+```
+1) 2x2 grid, do this for 4 famous historical scenes in human history {Input = Subject}
+Function Render_Jelly_Scatter ($ Subject)
+Anchor:[Gummy $ Subject] :: [Sub-Surface Scattering]::5
+Morphology:$Subject made of translucent gelatin or thick fruit flesh, soft wobbly geometry, glossy skin, condensation::4
+Material Physics: Sugar coating, sticky surface, light passing through the material to show inner seeds/structure, jelly physics::3
+Illumination: Backlight to highlight translucency, softbox reflections on the glossy surface, bright and colorful::2
+Render Stack: Macro product photography, 100mm lens, 8k, Ray-traced render::1
+Negative:[Opaque, matte, dry, metal, stone, sharp edges, dark]::-1
+
+2) 2x2 grid, do this for 4 famous historical emperors and their empires {Input = Subject}
+Function Render_Nendoroid ($ Subject)
+Anchor:[Chibi $ Subject] :: [Anime Figure Style]::5
+Morphology: Head-to-body ratio 1:2, large eyes, small nose, jointed neck and arms, cute posing::4
+Material Physics: Smooth high-quality PVC, matte skin, glossy hair, magnetic stand::3
+Illumination: Bright anime studio lighting, vibrant colors, soft specular highlights::2
+Render Stack: Good Smile Company style, 8k, Figure Photography::1
+Negative:[Realistic proportions, scary, complex texture, dark, gritty]::-1
+```
+
+> [!NOTE]
+> The author's verbatim prompt pair, run as two separate 2x2 concept grids. Strong examples of MAI-Image-2.5 handling stylized material systems and collectible-figure aesthetics.
+
+---
+
+### Case 6: [Cybernetic Horse in Luminous Hall](https://x.com/RockGrokAI/status/2062529686480081285) (by [@RockGrokAI](https://x.com/RockGrokAI))
+
+| Output |
+| :----: |
+| <img src="../images/poster_case6/output0.jpg" width="600" alt="Cybernetic horse standing in a luminous futuristic hall, rendered by MAI-Image-2.5"> |
+
+**Prompt:**
+
+```
+Source prompt from parent tweet by @RobotCleopatra:
+a formidable, highly detailed, [robotic horse] is depicted from a low vantage point, facing forward. its body is primarily silver and dark gray, accented by vibrant orange lights within its patterned metallic skin. the creature's legs are sturdy and segmented, with detailed hooves visible on the reflective, wet ground. the environment is an expansive, brightly illuminated hall featuring an intricate, geometric ceiling grid and distant architectural arches that fade into a bright, almost ethereal background.
+```
+
+> [!NOTE]
+> The prompt is public in-thread from the parent tweet, while this reply shows MAI-Image-2.5's output. Useful sci-fi environment + subject-material case with a clean single-image result.

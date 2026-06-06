@@ -51,6 +51,7 @@ If you find this useful, consider giving it a star. ⭐
 
 ## 📰 News
 
+- **June 5, 2026:** Added 3 new curated cases — two new Poster & Illustration entries and one new Comparison example from the June 4–5 curation batch.
 - **June 4, 2026:** First repository release — 15 curated MAI-Image-2.5 cases across Portrait, Poster, and Comparison categories.
 
 ## 📑 Menu
@@ -70,12 +71,15 @@ If you find this useful, consider giving it a star. ⭐
   - [Case 2: Anime Character Illustration (by @WaifuGacha)](#case-2-anime-character-illustration-by-waifugacha)
   - [Case 3: Pose Edit with Art-Style Preservation (by @genel_ai)](#case-3-pose-edit-with-art-style-preservation-by-genel_ai)
   - [Case 4: Romantic Sublime Cliff Scene (by @RockGrokAI)](#case-4-romantic-sublime-cliff-scene-by-rockgrokai)
+  - [Case 5: Historical Gummies & Chibi Emperors (by @Gdgtify)](#case-5-historical-gummies--chibi-emperors-by-gdgtify)
+  - [Case 6: Cybernetic Horse in Luminous Hall (by @RockGrokAI)](#case-6-cybernetic-horse-in-luminous-hall-by-rockgrokai)
 - [🆚 Comparison & Community Examples](#-comparison--community-examples)
   - [Case 1: Object Removal Edit, Text & Car (by @WolfRiccardo)](#case-1-object-removal-edit-text--car-by-wolfriccardo)
   - [Case 2: MAI-Image-2.5 vs Nano Banana Pro (by @eyupyusufa)](#case-2-mai-image-25-vs-nano-banana-pro-by-eyupyusufa)
   - [Case 3: Text-to-Image vs Nano Banana 2 (by @mrc_748)](#case-3-text-to-image-vs-nano-banana-2-by-mrc_748)
   - [Case 4: Flash vs Standard (by @400_yen)](#case-4-flash-vs-standard-by-400_yen)
   - [Case 5: Official Editing Before/After (OneDrive Photos) (by @MicrosoftAI)](#case-5-official-editing-beforeafter-onedrive-photos-by-microsoftai)
+  - [Case 6: Anime Character Sheet Comparison (by @wish_society)](#case-6-anime-character-sheet-comparison-by-wish_society)
 - [🙏 Acknowledge](#-acknowledge)
 
 ## 📸 Portrait & Photography Cases
@@ -294,6 +298,57 @@ Set in mid 19th-century, a solitary young woman standing on stormy cliff edge, w
 > [!NOTE]
 > The author's verbatim prompt. Naming the period ("mid 19th-century") and art movement ("Romantic sublime") strongly anchors the painterly style.
 
+---
+
+### Case 5: [Historical Gummies & Chibi Emperors](https://x.com/Gdgtify/status/2062463116852539651) (by [@Gdgtify](https://x.com/Gdgtify))
+
+| Historical Gummies | Chibi Emperors |
+| :----------------: | :------------: |
+| <img src="images/poster_case5/output0.jpg" width="300" alt="Four historical scenes rendered as translucent gummy compositions by MAI-Image-2.5"> | <img src="images/poster_case5/output1.jpg" width="300" alt="Four historical emperors rendered as chibi PVC figure concepts by MAI-Image-2.5"> |
+
+**Prompt:**
+
+```
+1) 2x2 grid, do this for 4 famous historical scenes in human history {Input = Subject}
+Function Render_Jelly_Scatter ($ Subject)
+Anchor:[Gummy $ Subject] :: [Sub-Surface Scattering]::5
+Morphology:$Subject made of translucent gelatin or thick fruit flesh, soft wobbly geometry, glossy skin, condensation::4
+Material Physics: Sugar coating, sticky surface, light passing through the material to show inner seeds/structure, jelly physics::3
+Illumination: Backlight to highlight translucency, softbox reflections on the glossy surface, bright and colorful::2
+Render Stack: Macro product photography, 100mm lens, 8k, Ray-traced render::1
+Negative:[Opaque, matte, dry, metal, stone, sharp edges, dark]::-1
+
+2) 2x2 grid, do this for 4 famous historical emperors and their empires {Input = Subject}
+Function Render_Nendoroid ($ Subject)
+Anchor:[Chibi $ Subject] :: [Anime Figure Style]::5
+Morphology: Head-to-body ratio 1:2, large eyes, small nose, jointed neck and arms, cute posing::4
+Material Physics: Smooth high-quality PVC, matte skin, glossy hair, magnetic stand::3
+Illumination: Bright anime studio lighting, vibrant colors, soft specular highlights::2
+Render Stack: Good Smile Company style, 8k, Figure Photography::1
+Negative:[Realistic proportions, scary, complex texture, dark, gritty]::-1
+```
+
+> [!NOTE]
+> The author's verbatim prompt pair, run as two separate 2x2 concept grids. Strong examples of MAI-Image-2.5 handling stylized material systems and collectible-figure aesthetics.
+
+---
+
+### Case 6: [Cybernetic Horse in Luminous Hall](https://x.com/RockGrokAI/status/2062529686480081285) (by [@RockGrokAI](https://x.com/RockGrokAI))
+
+| Output |
+| :----: |
+| <img src="images/poster_case6/output0.jpg" width="600" alt="Cybernetic horse standing in a luminous futuristic hall, rendered by MAI-Image-2.5"> |
+
+**Prompt:**
+
+```
+Source prompt from parent tweet by @RobotCleopatra:
+a formidable, highly detailed, [robotic horse] is depicted from a low vantage point, facing forward. its body is primarily silver and dark gray, accented by vibrant orange lights within its patterned metallic skin. the creature's legs are sturdy and segmented, with detailed hooves visible on the reflective, wet ground. the environment is an expansive, brightly illuminated hall featuring an intricate, geometric ceiling grid and distant architectural arches that fade into a bright, almost ethereal background.
+```
+
+> [!NOTE]
+> The prompt is public in-thread from the parent tweet, while this reply shows MAI-Image-2.5's output. Useful sci-fi environment + subject-material case with a clean single-image result.
+
 ## 🆚 Comparison & Community Examples
 
 ### Case 1: [Object Removal Edit, Text & Car](https://x.com/WolfRiccardo/status/2061902205779632501) (by [@WolfRiccardo](https://x.com/WolfRiccardo))
@@ -356,6 +411,17 @@ texts and car / remove
 
 > [!NOTE]
 > Official before/after editing examples from Microsoft (rolling out in OneDrive Photos): **Remove People**, **Boost Color**, **Make Vibrant**, and **Reduce Distractions** — each shown as an original/edited pair, demonstrating background cleanup that preserves the original scene.
+
+---
+
+### Case 6: [Anime Character Sheet Comparison](https://x.com/wish_society/status/2062519409923751965) (by [@wish_society](https://x.com/wish_society))
+
+| Nano Banana | MAI-Image-2.5 |
+| :---------: | :-----------: |
+| <img src="images/comparison_case6/output0.jpg" width="300" alt="Nano Banana result from an anime-style character sheet refinement comparison"> | <img src="images/comparison_case6/output1.jpg" width="300" alt="MAI-Image-2.5 result from the same anime-style character sheet refinement comparison"> |
+
+> [!NOTE]
+> Community comparison example — no reusable prompt was published, but the side-by-side is still useful as a finishing/editing reference. The author's takeaway was that MAI-Image-2.5 preserved color richness and fidelity better than GPT Image and Nano Banana during final-stage edits.
 
 ## 🙏 Acknowledge
 
