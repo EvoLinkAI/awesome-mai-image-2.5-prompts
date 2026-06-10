@@ -330,6 +330,23 @@
       "case_anchor": "case-7-flooded-taiga-night-train-edit-by-squeakalgaib",
       "image_dir": "images/comparison_case7",
       "added_at": "2026-06-06T13:15:07.166695+00:00"
+    },
+    {
+      "tweet_url": "https://x.com/KeylaDoloresM/status/2064555212224827509",
+      "author_handle": "@KeylaDoloresM",
+      "author_url": "https://x.com/KeylaDoloresM",
+      "lang": "en",
+      "title": "Fabric Mascot Pixel Art Portrait",
+      "category": "Portrait & Photography",
+      "category_slug": "portrait",
+      "case_number": 8,
+      "folder_name": "portrait_case8",
+      "role": "case",
+      "prompt_source": "real",
+      "images": [
+        "images/portrait_case8/output.jpg"
+      ],
+      "ingested_at": "2026-06-10"
     }
   ]
 }
