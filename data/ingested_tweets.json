@@ -348,6 +348,18 @@
       ],
       "ingested_at": "2026-06-14",
       "source_dataset": "manual-cron-backfill-2026-06-13"
+    },
+    {
+      "tweet_url": "https://x.com/aniruddhadak/status/2065132345741697157",
+      "author_handle": "aniruddhadak",
+      "title": "Nested Fruits Cutaway",
+      "category": "Comparison & Community Examples",
+      "readme_file": "README.md",
+      "case_anchor": "case-8-nested-fruits-cutaway-by-aniruddhadak",
+      "image_dir": "images/comparison_case8",
+      "added_at": "2026-06-14T06:38:00+00:00",
+      "prompt_source": "real",
+      "source_dataset": "curation-2026-06-12"
     }
   ]
 }
