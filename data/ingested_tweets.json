@@ -330,6 +330,24 @@
       "case_anchor": "case-7-flooded-taiga-night-train-edit-by-squeakalgaib",
       "image_dir": "images/comparison_case7",
       "added_at": "2026-06-06T13:15:07.166695+00:00"
+    },
+    {
+      "tweet_url": "https://x.com/madonomori/status/2065343169529806875",
+      "author_handle": "@madonomori",
+      "author_url": "https://x.com/madonomori",
+      "lang": "ja",
+      "title": "サイバーパンク女騎士",
+      "category": "Poster & Illustration",
+      "category_slug": "poster",
+      "case_number": 7,
+      "folder_name": "poster_case7",
+      "role": "case",
+      "prompt_source": "real",
+      "images": [
+        "images/poster_case7/output0.jpg"
+      ],
+      "ingested_at": "2026-06-14",
+      "source_dataset": "manual-cron-backfill-2026-06-13"
     }
   ]
 }
