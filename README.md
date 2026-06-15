@@ -49,19 +49,9 @@ If you find this useful, consider giving it a star. ⭐
 > [!NOTE]
 > This repository focuses on reusable prompt patterns and reference cases. Prompts marked as **reconstructed** are faithful rebuilds of a showcased result whose author did not publish the exact text — they are clearly flagged so you never mistake them for verbatim author wording.
 
-## 📰 News
-
-- **June 15, 2026:** Added 1 Poster & Illustration case from the June 14 curation window — Moonlit Volkswagen Bus Landscape by @stevegilham1.
-- **June 14, 2026:** Added 1 Comparison & Community example from the June 11-12 curation batch — Nested Fruits Cutaway by @aniruddhadak.
-- **June 14, 2026:** Added 1 Poster & Illustration case from the latest curation batch — サイバーパンク女騎士 by @madonomori.
-- **June 6, 2026:** Added 2 new curated cases — one new Portrait & Photography entry and one new Comparison example from the June 5–6 curation batch.
-- **June 5, 2026:** Added 3 new curated cases — two new Poster & Illustration entries and one new Comparison example from the June 4–5 curation batch.
-- **June 4, 2026:** First repository release — 15 curated MAI-Image-2.5 cases across Portrait, Poster, and Comparison categories.
-
 ## 📑 Menu
 
 - [🍌 Introduction](#-introduction)
-- [📰 News](#-news)
 - [📑 Menu](#-menu)
 - [📸 Portrait & Photography Cases](#-portrait--photography-cases)
   - [Case 1: Editorial Fashion Portrait, Golden Hour (by @atomtanstudio)](#case-1-editorial-fashion-portrait-golden-hour-by-atomtanstudio)
