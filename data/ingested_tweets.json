@@ -360,6 +360,16 @@
       "added_at": "2026-06-14T06:38:00+00:00",
       "prompt_source": "real",
       "source_dataset": "curation-2026-06-12"
+    },
+    {
+      "tweet_url": "https://x.com/stevegilham1/status/2066187534401479033",
+      "author_handle": "stevegilham1",
+      "title": "Moonlit Volkswagen Bus Landscape",
+      "category": "Poster & Illustration Cases",
+      "readme_file": "README.md",
+      "case_anchor": "case-8-moonlit-volkswagen-bus-landscape-by-stevegilham1",
+      "image_dir": "images/poster_case8",
+      "added_at": "2026-06-15T02:44:00Z"
     }
   ]
 }
