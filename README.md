@@ -24,6 +24,29 @@
 
 </div>
 
+## EvoLink Quick Start
+
+Turn a MAI-Image-2.5 prompt example into an EvoLink image generation request:
+
+- [Open the EvoLink model catalog](https://evolink.ai/models?utm_source=github&utm_medium=readme&utm_campaign=awesome-mai-image-2.5-prompts)
+- [Read EvoLink API docs](https://docs.evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=awesome-mai-image-2.5-prompts)
+- [Get your EvoLink API key](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=awesome-mai-image-2.5-prompts)
+- [Browse GPT Image 2 prompt examples](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts)
+- [Install the EvoLink Media MCP server](https://github.com/EvoLinkAI/evolink-media-mcp)
+
+```bash
+export EVOLINK_API_KEY="your_key_here"
+
+curl --request POST \
+  --url https://api.evolink.ai/v1/images/generations \
+  --header "Authorization: Bearer ${EVOLINK_API_KEY}" \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "model": "mai-image-2.5",
+    "prompt": "A photorealistic editorial portrait with warm golden-hour light, preserved identity, natural skin texture, high-end magazine composition"
+  }'
+```
+
 ## 🍌 Introduction
 
 Welcome to the MAI-Image-2.5 prompt repository! 🤗
